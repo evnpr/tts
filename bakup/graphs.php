@@ -489,7 +489,7 @@ function form_actions() {
 				$drive = 'F:';
 			else
 				$drive = 'G:';
-			
+			$drive = str_replace(":", "", $drive);
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
