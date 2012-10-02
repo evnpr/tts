@@ -493,8 +493,9 @@ function tree() {
 
  
 <script language="JavaScript">
-	for (var i=0;i<document.form_tree.parent_time_id.options.length;i++) {
-		if (document.form_tree.parent_time_id.options[i].value == '18')
-			document.form_tree.parent_time_id.options[i].selected = true;
+	frm=document.forms.form_tree;
+	for (var i=0;i<frm.parent_time_id.options.length;i++) {
+		if (frm.parent_time_id.options[i].value == '18')
+			frm.parent_time_id.options[i].selected = true;
 	}
 </script>
