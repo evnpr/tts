@@ -493,6 +493,5 @@ function tree() {
 
  
 <script language="JavaScript">
-	frm=document.form_tree;
-	alert(frm.parent_time_id.options[0].value)
+document.forms[0].select.selectedIndex = 2;
 </script>
