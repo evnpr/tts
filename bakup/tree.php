@@ -500,11 +500,12 @@ function searchMethod() {
 	var unlucky_me = true;
 	for(var i=0; i< searchBounds.length; i++){
 		if(searchBounds[i].value==searchTerm){
-			document.getElementById("title").value = searchTerm
+			document.parent_time_id.value = searchTerm
 			unlucky_me=false
 			break;
 		}
 	}
+	
 	if(unlucky_me) alert('Too bad');
 }
  
