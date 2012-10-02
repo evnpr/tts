@@ -2,16 +2,6 @@
 
 
 
-if ($_SESSION["thetreenamechild"] == 'drive E')
-	$_SESSION["thetreenamechild"] = 'drive F';
-else if ($_SESSION["thetreenamechild"] == 'drive D')
-	$_SESSION["thetreenamechild"] = 'drive E';
-else if ($_SESSION["thetreenamechild"] == 'drive C')
-	$_SESSION["thetreenamechild"] = 'drive D';
-else
-	$_SESSION["thetreenamechild"] = 'drive C';
-
-$_SESSION["thetreename"] = 'test5';
 
 
 /*
@@ -46,6 +36,17 @@ input_validate_input_number(get_request_var('tree_id'));
 input_validate_input_number(get_request_var('leaf_id'));
 input_validate_input_number(get_request_var_post('graph_tree_id'));
 input_validate_input_number(get_request_var_post('parent_item_id'));
+
+if ($_SESSION["thetreenamechild"] == 'drive E')
+	$_SESSION["thetreenamechild"] = 'drive F';
+else if ($_SESSION["thetreenamechild"] == 'drive D')
+	$_SESSION["thetreenamechild"] = 'drive E';
+else if ($_SESSION["thetreenamechild"] == 'drive C')
+	$_SESSION["thetreenamechild"] = 'drive D';
+else
+	$_SESSION["thetreenamechild"] = 'drive C';
+
+$_SESSION["thetreename"] = 'test5';
 
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
