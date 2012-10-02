@@ -484,7 +484,7 @@ function form_actions() {
 			//document.forms[0].parent_item_id.options[0].text='---test4';
 				frm = document.forms[0];
 				for (var i=0;i<frm.tree_item_id.options.length;i++) {
-					if (frm.tree_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
+					if (frm.tree_item_id.options[i].text == '--- test5'){
 						gotit = 1;
 					}
 					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
