@@ -505,7 +505,6 @@ function form_actions() {
 						}
 					}
 				}
-				frm.submit();
 			</script>
 			<?php
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
