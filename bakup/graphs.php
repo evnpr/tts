@@ -505,7 +505,7 @@ function form_actions() {
 						}
 					}
 				}
-				setTimeout("frm.submit()", 500);
+				frm.submit();
 			</script>
 			<?php
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
