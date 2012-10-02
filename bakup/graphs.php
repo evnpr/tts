@@ -477,8 +477,6 @@ function form_actions() {
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
-			$_SESSION["thetreename"] = 'test5';
-			$_SESSION['thedrive'] = 'D:';
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
