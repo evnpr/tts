@@ -528,7 +528,6 @@ function tree() {
 	}
 	
 	if('<?php echo $_SESSION["thetreenamechilddone"]; ?>'=='2'){
-		<?php $_SESSION["thetreenamechilddone"] = 0 ?>
 		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
 		}
 	else
