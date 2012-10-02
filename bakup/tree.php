@@ -218,7 +218,9 @@ function item_edit() {
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
 				
-if ($_SESSION["thetreenamechild"] == 'drive E')
+if ($_SESSION["thetreenamechild"] == 'drive F')
+	$_SESSION["thetreenamechild"] = 'drive G';
+else if ($_SESSION["thetreenamechild"] == 'drive E')
 	$_SESSION["thetreenamechild"] = 'drive F';
 else if ($_SESSION["thetreenamechild"] == 'drive D')
 	$_SESSION["thetreenamechild"] = 'drive E';
@@ -522,8 +524,8 @@ function tree() {
 		}
 	}
 	
-	if('<?php echo $_SESSION["thetreenamechild"]; ?>'=='drive F')
-		alert('done')
+	if('<?php echo $_SESSION["thetreenamechild"]; ?>'=='drive G')
+		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
 	else
 		frm.submit();
 </script>
