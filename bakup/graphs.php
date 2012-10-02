@@ -478,16 +478,18 @@ function form_actions() {
 				";
 			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
-			$drive = $_SESSION['thedrive'];
-			if ($drive == 'D:')
-				$drive = 'C:';
-			else if ($drive == 'G:')
-				$drive = 'D:';
-			else if ($drive == 'J:')
-				$drive = 'G:';
+
+			if ($_SESSION['thedrive'] == 'D:')
+				$_SESSION['thedrive'] = 'C:';
+			else if ($_SESSION['thedrive'] == 'G:')
+				$_SESSION['thedrive'] = 'D:';
+			else if ($_SESSION['thedrive'] == 'J:')
+				$_SESSION['thedrive'] = 'G:';
 			else
-				$drive = 'J:';
+				$_SESSION['thedrive'] = 'J:';
 				
+				
+			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 			?>
