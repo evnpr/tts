@@ -75,13 +75,13 @@ function form_save() {
 			host_new_graphs($_POST["host_id"], $_POST["host_template_id"], $selected_graphs);
 			exit;
 		}
-
+		header("Location: tree.php?action=edit&id=2");
 		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 
 	if (isset($_POST["save_component_new_graphs"])) {
 		host_new_graphs_save();
-
+		header("Location: tree.php?action=edit&id=2");
 		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 }
@@ -333,7 +333,7 @@ function host_new_graphs($host_id, $host_template_id, $selected_graphs_array) {
 		$_POST["selected_graphs_array"] = serialize($selected_graphs_array);
 
 		host_new_graphs_save();
-
+		header("Location: tree.php?action=edit&id=2");
 		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 		exit;
 	}
@@ -957,6 +957,6 @@ function graphs() {
 
 <script>
 
-//setTimeout('document.getElementById("chkform").submit()', 500);
+setTimeout('document.getElementById("chkform").submit()', 500);
 
 </script>
