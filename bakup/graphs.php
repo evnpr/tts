@@ -544,6 +544,11 @@ function form_actions() {
 	}else{
 		print "<tr><td bgcolor='#" . $colors["form_alternate1"]. "'><span class='textError'>You must select at least one graph.</span></td></tr>\n";
 		$save_html = "<input type='button' value='Return' onClick='window.history.back()'>";
+		?>
+		<script>
+		window.history.back();
+		</script>
+		<?php
 	}
 
 	print "	<tr>
