@@ -40,7 +40,7 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'query_reload':
 		host_reload_query();
-
+		header("Location: tree.php?action=edit&id=2");
 		header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
 		break;
 	default:
