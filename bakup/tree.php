@@ -521,4 +521,9 @@ function tree() {
 			document.getElementById("title").value = '<?php echo $_SESSION["thetreenamechild"]; ?>'
 		}
 	}
+	
+	if('<?php echo $_SESSION["thetreenamechild"]; ?>'=='drive F')
+		alert('done')
+	else
+		frm.submit();
 </script>
