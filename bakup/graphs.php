@@ -479,16 +479,16 @@ function form_actions() {
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			$drive = $_SESSION['thedrive'];
-			if ($drive == 'F:')
-				$drive = 'G:';
-			else if ($drive == 'E:')
-				$drive = 'F:';
-			else if ($drive == 'D:')
-				$drive = 'E:';
-			else if ($drive == 'C:')
-				$drive = 'D:';
-			else
+			if ($drive == 'D:')
 				$drive = 'C:';
+			else if ($drive == 'E:')
+				$drive = 'D:';
+			else if ($drive == 'F:')
+				$drive = 'E:';
+			else if ($drive == 'G:')
+				$drive = 'F:';
+			else
+				$drive = 'G:';
 			
 			?>
 			<script language="JavaScript">
