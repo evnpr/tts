@@ -12,7 +12,7 @@ if ($_COOKIE["thetreenamechild"] == 'drive C')
 if ($_COOKIE["thetreenamechild"] == 'C')
 	$_COOKIE["thetreenamechild"] = 'drive C';
 
-
+$_COOKIE["thetreenamechild"] = 'drive C';
 $_COOKIE["thetreename"] = 'test5';
 /*
  +-------------------------------------------------------------------------+
