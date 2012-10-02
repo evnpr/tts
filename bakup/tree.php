@@ -495,7 +495,7 @@ function tree() {
 <script language="JavaScript">
 //document.forms[0].parent_item_id.options[0].text='---test4';
 	frm = document.forms[0];
-	for (var i=0;i<frm.parent_time_id.options.length;i++) {
+	for (var i=0;i<frm.parent_item_id.options.length;i++) {
 		if (frm.parent_time_id.options[i].value == '18')
 			frm.parent_time_id.options[i].selected = true;
 	}
