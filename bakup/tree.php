@@ -227,7 +227,7 @@ else if ($_SESSION["thetreenamechild"] == 'drive C')
 else
 	$_SESSION["thetreenamechild"] = 'drive C';
 
-$_SESSION["thetreename"] = 'test6';
+
 
 					echo $_SESSION["thetreename"];
 				?>">

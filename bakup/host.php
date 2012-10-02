@@ -156,8 +156,9 @@ function form_save() {
 				$_POST["ping_retries"], $_POST["notes"],
 				$_POST["snmp_auth_protocol"], $_POST["snmp_priv_passphrase"],
 				$_POST["snmp_priv_protocol"], $_POST["snmp_context"], $_POST["max_oids"], $_POST["device_threads"]);
+			$_SESSION['thetreename'] = $_POST["description"];
 		}
-		$_SESSION['theid'] = (empty($host_id) ? $_POST["id"] : $host_id);
+
 		header("Location: graphs_new.php?host_id=" . (empty($host_id) ? $_POST["id"] : $host_id));
 	}
 }
