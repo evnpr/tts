@@ -37,16 +37,7 @@ input_validate_input_number(get_request_var('leaf_id'));
 input_validate_input_number(get_request_var_post('graph_tree_id'));
 input_validate_input_number(get_request_var_post('parent_item_id'));
 
-if ($_SESSION["thetreenamechild"] == 'drive E')
-	$_SESSION["thetreenamechild"] = 'drive F';
-else if ($_SESSION["thetreenamechild"] == 'drive D')
-	$_SESSION["thetreenamechild"] = 'drive E';
-else if ($_SESSION["thetreenamechild"] == 'drive C')
-	$_SESSION["thetreenamechild"] = 'drive D';
-else
-	$_SESSION["thetreenamechild"] = 'drive C';
 
-$_SESSION["thetreename"] = 'test6';
 
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
@@ -226,6 +217,18 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
+				
+if ($_SESSION["thetreenamechild"] == 'drive E')
+	$_SESSION["thetreenamechild"] = 'drive F';
+else if ($_SESSION["thetreenamechild"] == 'drive D')
+	$_SESSION["thetreenamechild"] = 'drive E';
+else if ($_SESSION["thetreenamechild"] == 'drive C')
+	$_SESSION["thetreenamechild"] = 'drive D';
+else
+	$_SESSION["thetreenamechild"] = 'drive C';
+
+$_SESSION["thetreename"] = 'test6';
+
 					echo $_SESSION["thetreename"];
 				?>">
 				<?php // form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
@@ -503,6 +506,9 @@ function tree() {
 	}
 	html_end_box();
 }
+
+
+
  ?>
 
  
