@@ -493,5 +493,5 @@ function tree() {
 
  
 <script language="JavaScript">
-document.forms[0].select.selectedIndex = 2;
+alert(document.forms[0].name);
 </script>
