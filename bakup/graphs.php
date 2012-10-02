@@ -490,7 +490,7 @@ function form_actions() {
 				else
 					$_SESSION['thedrive'] = 'J:';
 					
-				//$_SESSION['thedrivedone']=1;
+				$_SESSION['thedrivedone']=1;
 			}
 				
 			$drive = $_SESSION['thedrive'];	

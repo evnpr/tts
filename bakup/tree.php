@@ -220,14 +220,19 @@ function item_edit() {
 				
 if ($_SESSION["thetreenamechild"] == 'drive J')
 	$_SESSION["thetreenamechild"] = 'drive H';
+	$driveH = 1;
 else if ($_SESSION["thetreenamechild"] == 'drive G')
 	$_SESSION["thetreenamechild"] = 'drive J';
+	$driveJ = 1;
 else if ($_SESSION["thetreenamechild"] == 'drive D')
 	$_SESSION["thetreenamechild"] = 'drive G';
+	$driveG = 1;
 else if ($_SESSION["thetreenamechild"] == 'drive C')
 	$_SESSION["thetreenamechild"] = 'drive D';
+	$driveD = 1;
 else
 	$_SESSION["thetreenamechild"] = 'drive C';
+	$driveC = 1;
 
 
 
@@ -524,7 +529,7 @@ function tree() {
 		}
 	}
 	
-	if('<?php echo $_SESSION["thetreenamechild"]; ?>'=='drive H')
+	if('<?php echo $driveJ + $driveG + $driveC + $driveD; ?>'=='4')
 		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
 	else
 		frm.submit();
