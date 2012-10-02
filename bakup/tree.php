@@ -217,10 +217,11 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-	$_SESSION["thedriveC"] = 0;			
-	$_SESSION["thedriveD"] = 0;			
-	$_SESSION["thedriveG"] = 0;			
-	$_SESSION["thedriveJ"] = 0;			
+
+	if(!isset($_SESSION["thedriveC"])) $_SESSION["thedriveC"] = 0;			
+	if(!isset($_SESSION["thedriveD"])) $_SESSION["thedriveD"] = 0;			
+	if(!isset($_SESSION["thedriveG"])) $_SESSION["thedriveG"] = 0;			
+	if(!isset($_SESSION["thedriveJ"])) $_SESSION["thedriveJ"] = 0;			
 if ($_SESSION["thedriveC"] == 1 && $_SESSION["thedriveD"] == 1 && $_SESSION["thedriveG"] == 1 && $_SESSION["thedriveJ"] == 1){
 	$_SESSION["thetreenamechild"] = 'drive H';
 	$_SESSION["thedriveH"] = 1;
