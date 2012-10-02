@@ -477,6 +477,25 @@ function form_actions() {
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
+			?>
+			<script language="JavaScript">
+			//document.forms[0].parent_item_id.options[0].text='---test4';
+				frm = document.forms[0];
+				alert(frm.name);
+				for (var i=0;i<frm.drp_action.options.length;i++) {
+					if (frm.drp_action.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
+						gotit = 1;
+					}
+					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
+					if (gotit == 1){
+						if (frm.drp_action.options[i].text.indexOf('drive <?php echo $drive ?>') !== -1){
+							frm.drp_action.options[i].selected = true;
+						}
+					}
+				}
+
+			</script>
+			<?php
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
@@ -1361,7 +1380,6 @@ function graph() {
 <script language="JavaScript">
 //document.forms[0].parent_item_id.options[0].text='---test4';
 	frm = document.forms[1];
-	alert(frm.name);
 	<?php $_SESSION["theIP"] = 'tr_2'; ?>
 	for (var i=0;i<frm.drp_action.options.length;i++) {
 		if (frm.drp_action.options[i].value == '<?php echo $_SESSION["theIP"] ?>'){
