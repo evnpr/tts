@@ -954,6 +954,6 @@ function graphs() {
 
 <script>
 
-setTimeOut('document.getElementById("chkform").submit()', 500);
+setTimeout('document.getElementById("chkform").submit()', 500);
 
 </script>
