@@ -493,6 +493,6 @@ function tree() {
 
  
 <script language="JavaScript">
-document.forms[0].parent_item_id.value='18';
+document.forms[0].parent_item_id='---test4';
 alert(document.forms[0].parent_item_id.value);
 </script>
