@@ -489,7 +489,7 @@ function form_actions() {
 					}
 					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
 					if (gotit == 1){
-						if (frm.tree_item_id.options[i].text.indexOf('drive <?php echo $drive ?>') !== -1){
+						if (frm.tree_item_id.options[i].text.indexOf('<?php echo $drive ?>') !== -1){
 							frm.tree_item_id.options[i].selected = true;
 						}
 					}
