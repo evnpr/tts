@@ -1,27 +1,18 @@
 <?php
-setcookie("thetreename", 'test5');
 
 
-if ($_COOKIE["thetreenamechild"] == 'drive E')
-	$_COOKIE["thetreenamechild"] = 'drive F';
-else if ($_COOKIE["thetreenamechild"] == 'drive D')
-	$_COOKIE["thetreenamechild"] = 'drive E';
-else if ($_COOKIE["thetreenamechild"] == 'drive C')
-	$_COOKIE["thetreenamechild"] = 'drive D';
+
+if ($_SESSION["thetreenamechild"] == 'drive E')
+	$_SESSION["thetreenamechild"] = 'drive F';
+else if ($_SESSION["thetreenamechild"] == 'drive D')
+	$_SESSION["thetreenamechild"] = 'drive E';
+else if ($_SESSION["thetreenamechild"] == 'drive C')
+	$_SESSION["thetreenamechild"] = 'drive D';
 else
-	$_COOKIE["thetreenamechild"] = 'drive C';
+	$_SESSION["thetreenamechild"] = 'drive C';
 
-$_COOKIE["thetreename"] = 'test5';
+$_SESSION["thetreename"] = 'test5';
 
-
-if ($_COOKIE["thetreenamechild"] == 'drive E')
-	$_COOKIE["thetreenamechild"] = 'drive F';
-else if ($_COOKIE["thetreenamechild"] == 'drive D')
-	$_COOKIE["thetreenamechild"] = 'drive E';
-else if ($_COOKIE["thetreenamechild"] == 'drive C')
-	$_COOKIE["thetreenamechild"] = 'drive D';
-else
-	$_COOKIE["thetreenamechild"] = 'drive C';
 
 /*
  +-------------------------------------------------------------------------+
@@ -234,7 +225,7 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-					echo $_COOKIE["thetreename"];
+					echo $_SESSION["thetreename"];
 				?>">
 				<?php // form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
 			</td>
@@ -518,9 +509,9 @@ function tree() {
 //document.forms[0].parent_item_id.options[0].text='---test4';
 	frm = document.forms[0];
 	for (var i=0;i<frm.parent_item_id.options.length;i++) {
-		if (frm.parent_item_id.options[i].text == '--- <?php echo $_COOKIE["thetreename"] ?>'){
+		if (frm.parent_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
 			frm.parent_item_id.options[i].selected = true;
-			document.getElementById("title").value = '<?php echo $_COOKIE["thetreenamechild"]; ?>'
+			document.getElementById("title").value = '<?php echo $_SESSION["thetreenamechild"]; ?>'
 		}
 	}
 </script>
