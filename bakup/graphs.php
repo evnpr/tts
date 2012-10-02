@@ -1328,10 +1328,7 @@ function graph() {
 			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
 			form_selectable_cell($graph["height"] . "x" . $graph["width"], $graph["local_graph_id"]);
 			//form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
-			$pos = strpos($graph["title_cache"], $_SESSION["thedrive"]);
-			if ($pos === false){
-				continue;
-			}
+
 			?>
 			<td onclick="select_line("<?php echo $graph["local_graph_id"] ?>", true)" style="padding: 4px; margin: 4px;" width="1%" align="right">
 				<input type="checkbox" style="margin: 0px;" id="chk_<?php echo $graph["local_graph_id"] ?>" name="chk_<?php echo $graph["local_graph_id"] ?>" checked="checked">
