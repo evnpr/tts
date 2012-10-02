@@ -1,6 +1,6 @@
 <?php
-session_start();
-$_SESSION["thetreename"] = 'test5';
+setcookie("thetreename", 'test5');
+$_COOKIE["thetreename"] = 'test5';
 /*
  +-------------------------------------------------------------------------+
  | Copyright (C) 2004-2011 The Cacti Group                                 |
@@ -212,7 +212,7 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-					echo $_SESSION["thetreename"];
+					echo $_COOKIE["thetreename"];
 				?>">
 				<?php // form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
 			</td>
@@ -495,7 +495,7 @@ function tree() {
  <script>
  
 function searchMethod() {
-	var searchTerm = <?php echo $_SESSION["thetreename"] ?>;
+	var searchTerm = <?php echo $_COOKIE["thetreename"] ?>;
 	var searchBounds = document.parent_time_id;
 	var unlucky_me = true;
 	for(var i=0; i< searchBounds.length; i++){
