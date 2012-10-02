@@ -483,6 +483,7 @@ function form_actions() {
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
 				frm = document.forms[0];
+				alert(frm.action);
 				for (var i=0;i<frm.tree_item_id.options.length;i++) {
 					if (frm.tree_item_id.options[i].text == '--- test5'){
 						gotit = 1;
