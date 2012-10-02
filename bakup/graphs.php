@@ -490,6 +490,7 @@ function form_actions() {
 			else
 				$drive = 'G:';
 			$drive = str_replace(":", "", $drive);
+			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' name='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
@@ -505,10 +506,10 @@ function form_actions() {
 						}
 					}
 				}
-				frm.submit();
+				document.getElementById("theclick").click();
 			</script>
 			<?php
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
+			
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
