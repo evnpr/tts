@@ -476,7 +476,7 @@ function form_actions() {
 				</tr>\n
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
+			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			$drive = $_SESSION['thedrive'];
 			if ($drive == 'D:')
@@ -508,6 +508,7 @@ function form_actions() {
 				frm.submit();
 			</script>
 			<?php
+			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
