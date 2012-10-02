@@ -883,7 +883,10 @@ function graphs() {
 						}
 
 						print "<td align='right'>";
-						print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();' checked='checked'>";
+						if( $snmp_query["name"] == '[SNMP - Get Mounted Partitions]')
+							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();' checked='checked'>";
+						else
+							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();'>";							
 						print "</td>";
 						print "</tr>\n";
 
@@ -954,6 +957,6 @@ function graphs() {
 
 <script>
 
-setTimeout('document.getElementById("chkform").submit()', 500);
+//setTimeout('document.getElementById("chkform").submit()', 500);
 
 </script>
