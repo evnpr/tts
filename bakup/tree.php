@@ -1,6 +1,17 @@
 <?php
 setcookie("thetreename", 'test5');
-setcookie("thetreenamechild", 'Drive C');
+if !isset($_COOKIE["thetreenamechild"])
+	setcookie("thetreenamechild", 'C');
+
+if ($_COOKIE["thetreenamechild"] == 'drive E')
+	$_COOKIE["thetreenamechild"] = 'drive F';
+if ($_COOKIE["thetreenamechild"] == 'drive D')
+	$_COOKIE["thetreenamechild"] = 'drive E';
+if ($_COOKIE["thetreenamechild"] == 'drive C')
+	$_COOKIE["thetreenamechild"] = 'drive D';
+if ($_COOKIE["thetreenamechild"] == 'C')
+	$_COOKIE["thetreenamechild"] = 'drive C';
+
 
 $_COOKIE["thetreename"] = 'test5';
 $_COOKIE["thetreenamechild"] = 'Drive C';
