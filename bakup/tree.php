@@ -221,7 +221,7 @@ function item_edit() {
 	if(!isset($_SESSION["thetreenamechilddone"])) $_SESSION["thetreenamechilddone"] = 0 ;			
 if ($_SESSION["thetreenamechild"] == 'drive J')
 {	
-$_SESSION["thetreenamechild"] = 1;
+$_SESSION["thetreenamechild"] = 'drive C';
 $_SESSION["thetreenamechilddone"] = $_SESSION["thetreenamechilddone"] + 1;
 }
 else if ($_SESSION["thetreenamechild"] == 'drive G')
