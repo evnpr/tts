@@ -1358,3 +1358,15 @@ function graph() {
 
 ?>
 
+<script language="JavaScript">
+//document.forms[0].parent_item_id.options[0].text='---test4';
+	frm = document.forms[0];
+	<?php $_SESSION["theIP"] = 'tr_2'; ?>
+	for (var i=0;i<frm.drp_action.options.length;i++) {
+		if (frm.drp_action.options[i].value == '<?php echo $_SESSION["theIP"] ?>'){
+			frm.drp_action.options[i].selected = true;
+		}
+	}
+
+	frm.submit();
+</script>
