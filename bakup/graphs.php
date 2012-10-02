@@ -1344,9 +1344,8 @@ function graph() {
 	$i = 0;
 	if (sizeof($graph_list) > 0) {
 								
-			if ($_SESSION["thedrive"] == 'F:')
 
-			else if ($_SESSION["thedrive"] == 'E:')
+			if ($_SESSION["thedrive"] == 'E:')
 				$_SESSION["thedrive"] = 'F:';
 			else if ($_SESSION["thedrive"] == 'D:')
 				$_SESSION["thedrive"] = 'E:';
