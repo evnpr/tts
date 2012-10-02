@@ -212,7 +212,6 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-				if isset($_SESSION["thetreename"])
 					echo $_SESSION["thetreename"];
 				?>">
 				<?php // form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
