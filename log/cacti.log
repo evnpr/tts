@@ -1,0 +1,1391 @@
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 05:51:24 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 05:51:24 PM - SYSTEM STATS: Time:0.7949 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:00:01 PM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 518 seconds have passed since the last poll!
+09/24/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:00:02 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:00:02 PM - SYSTEM STATS: Time:0.7169 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:05:02 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:05:02 PM - SYSTEM STATS: Time:0.9238 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:10:01 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:10:01 PM - SYSTEM STATS: Time:0.6113 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:15:01 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:15:01 PM - SYSTEM STATS: Time:0.7331 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:20:01 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:20:01 PM - SYSTEM STATS: Time:0.6455 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:24:24 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:24:24 PM - SYSTEM STATS: Time:0.6315 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:30:01 PM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 337 seconds have passed since the last poll!
+09/24/2012 06:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:30:02 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:30:02 PM - SYSTEM STATS: Time:0.7369 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/24/2012 06:35:01 PM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/24/2012 06:35:01 PM - SYSTEM STATS: Time:1.1764 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 09:50:01 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 54901 seconds have passed since the last poll!
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] ASSERT: '944614<26723' failed. Recaching host '10.11.14.4', data query #1
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] ASSERT: '944614<26725' failed. Recaching host '10.11.14.4', data query #3
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] ASSERT: '944614<26725' failed. Recaching host '10.11.14.4', data query #8
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] ASSERT: '944614<26725' failed. Recaching host '10.11.14.4', data query #9
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:50:02 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:50:02 AM - SYSTEM STATS: Time:0.8113 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 09:50:02 AM - PCOMMAND: Poller[0] Host[2] WARNING: Recache Event Detected for Host
+09/25/2012 09:50:04 AM - CMDPHP: Poller[0] WARNING: SNMP Walk Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.1'
+09/25/2012 09:50:06 AM - RECACHE STATS: RecacheTime:3.4845 HostsRecached:1
+09/25/2012 09:55:08 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 307 seconds have passed since the last poll!
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 09:55:09 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 09:55:09 AM - SYSTEM STATS: Time:0.8120 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:01:08 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 360 seconds have passed since the last poll!
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:01:08 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:01:08 AM - SYSTEM STATS: Time:0.3931 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:05:21 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:05:21 AM - SYSTEM STATS: Time:1.9974 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:10:32 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 313 seconds have passed since the last poll!
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:10:33 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:10:33 AM - SYSTEM STATS: Time:0.4455 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:15:55 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 323 seconds have passed since the last poll!
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:15:55 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:15:55 AM - SYSTEM STATS: Time:0.4410 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:20:21 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:20:21 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:20:22 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:20:22 AM - SYSTEM STATS: Time:2.5287 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:25:05 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:25:05 AM - SYSTEM STATS: Time:0.6427 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:30:55 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 351 seconds have passed since the last poll!
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:30:55 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:30:55 AM - SYSTEM STATS: Time:0.4129 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:35:03 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:35:03 AM - SYSTEM STATS: Time:1.0489 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:11 RRDsProcessed:11
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:40:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:40:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 10:40:03 AM - SYSTEM STATS: Time:2.6187 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:45:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:45:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 10:45:02 AM - SYSTEM STATS: Time:2.3174 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:50:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:50:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 10:50:03 AM - SYSTEM STATS: Time:2.3946 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 10:55:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:55:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 10:55:02 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 10:55:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 10:55:03 AM - SYSTEM STATS: Time:2.4758 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:00:02 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:00:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:00:03 AM - SYSTEM STATS: Time:2.3693 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:05:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:05:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:05:03 AM - SYSTEM STATS: Time:2.3567 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:10:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:10:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:10:03 AM - SYSTEM STATS: Time:2.2860 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:15:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:15:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:15:03 AM - SYSTEM STATS: Time:2.3370 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:20:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:20:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:20:03 AM - SYSTEM STATS: Time:2.3535 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:25:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:25:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:25:02 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:25:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:25:03 AM - SYSTEM STATS: Time:2.3594 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:30:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:30:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:30:03 AM - SYSTEM STATS: Time:2.2858 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[8] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[9] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[10] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[11] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[12] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+09/25/2012 11:35:01 AM - CMDPHP: Poller[0] Host[2] DS[13] WARNING: Result from SNMP not valid.  Partial Result: U
+09/25/2012 11:35:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.6.1'
+09/25/2012 11:35:03 AM - SYSTEM STATS: Time:2.2806 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:67 RRDsProcessed:39
+09/25/2012 11:40:00 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:40:00 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:40:00 AM - SYSTEM STATS: Time:0.4494 Method:cmd.php Processes:1 Threads:N/A Hosts:2 HostsPerProcess:2 DataSources:5 RRDsProcessed:5
+09/25/2012 11:45:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:45:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:45:01 AM - SYSTEM STATS: Time:0.4795 Method:cmd.php Processes:1 Threads:N/A Hosts:2 HostsPerProcess:2 DataSources:5 RRDsProcessed:5
+09/25/2012 11:50:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:50:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:50:01 AM - SYSTEM STATS: Time:0.6568 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:5 RRDsProcessed:5
+09/25/2012 11:55:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:55:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 11:55:01 AM - SYSTEM STATS: Time:0.5413 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:5 RRDsProcessed:5
+09/25/2012 12:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:00:02 PM - SYSTEM STATS: Time:0.5375 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:5 RRDsProcessed:5
+09/25/2012 12:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:05:01 PM - SYSTEM STATS: Time:0.5142 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:5 RRDsProcessed:5
+09/25/2012 12:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:10:01 PM - SYSTEM STATS: Time:0.4902 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:5 RRDsProcessed:5
+09/25/2012 12:15:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:15:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:15:04 PM - SYSTEM STATS: Time:2.6654 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:20:03 PM - SYSTEM STATS: Time:2.6552 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:25:03 PM - SYSTEM STATS: Time:2.2918 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:30:03 PM - SYSTEM STATS: Time:2.2839 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:35:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:35:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:35:04 PM - SYSTEM STATS: Time:2.6405 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:40:03 PM - SYSTEM STATS: Time:2.3004 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:45:05 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:45:05 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:45:06 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:45:07 PM - SYSTEM STATS: Time:4.5586 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 12:50:03 PM - SYSTEM STATS: Time:2.3111 Method:cmd.php Processes:1 Threads:N/A Hosts:3 HostsPerProcess:3 DataSources:61 RRDsProcessed:33
+09/25/2012 12:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 12:55:02 PM - SYSTEM STATS: Time:1.0375 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:00:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:00:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:00:03 PM - SYSTEM STATS: Time:2.4082 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:05:03 PM - SYSTEM STATS: Time:2.2961 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:10:03 PM - SYSTEM STATS: Time:2.2861 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:15:03 PM - SYSTEM STATS: Time:2.2928 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:20:02 PM - SYSTEM STATS: Time:2.2404 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:25:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:25:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:25:03 PM - SYSTEM STATS: Time:2.3528 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:30:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:30:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:30:03 PM - SYSTEM STATS: Time:2.3002 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:35:02 PM - SYSTEM STATS: Time:2.2979 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:40:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:40:03 PM - SYSTEM STATS: Time:2.2560 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:45:02 PM - SYSTEM STATS: Time:2.3403 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:50:03 PM - SYSTEM STATS: Time:2.3711 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 01:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 01:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 01:55:03 PM - SYSTEM STATS: Time:2.3193 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 02:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:00:03 PM - SYSTEM STATS: Time:2.3413 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 02:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:05:03 PM - SYSTEM STATS: Time:2.2583 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 02:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:10:02 PM - SYSTEM STATS: Time:2.3588 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 02:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:15:03 PM - SYSTEM STATS: Time:2.3161 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:61 RRDsProcessed:33
+09/25/2012 02:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:20:03 PM - SYSTEM STATS: Time:2.3692 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:63 RRDsProcessed:34
+09/25/2012 02:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:25:03 PM - SYSTEM STATS: Time:2.3806 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:30:03 PM - SYSTEM STATS: Time:2.3218 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:35:00 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:35:02 PM - SYSTEM STATS: Time:2.3680 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:40:03 PM - SYSTEM STATS: Time:2.3220 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:45:03 PM - SYSTEM STATS: Time:2.3456 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:50:03 PM - SYSTEM STATS: Time:2.2743 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 02:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 02:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 02:55:03 PM - SYSTEM STATS: Time:2.4426 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:00:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:00:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:00:03 PM - SYSTEM STATS: Time:2.3863 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:05:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:05:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:05:03 PM - SYSTEM STATS: Time:2.3676 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:10:02 PM - SYSTEM STATS: Time:2.3041 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:15:03 PM - SYSTEM STATS: Time:2.3818 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:20:03 PM - SYSTEM STATS: Time:2.2749 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:25:03 PM - SYSTEM STATS: Time:2.2691 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:30:03 PM - SYSTEM STATS: Time:2.2610 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:35:03 PM - SYSTEM STATS: Time:2.4561 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:40:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:40:03 PM - SYSTEM STATS: Time:2.3355 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:45:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:45:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:45:03 PM - SYSTEM STATS: Time:2.2178 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:50:03 PM - SYSTEM STATS: Time:2.2962 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 03:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 03:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 03:55:03 PM - SYSTEM STATS: Time:2.3821 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:00:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:00:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:00:03 PM - SYSTEM STATS: Time:2.4290 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:05:03 PM - SYSTEM STATS: Time:2.3383 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:10:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:10:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:10:04 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:10:04 PM - SYSTEM STATS: Time:2.6072 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:15:03 PM - SYSTEM STATS: Time:2.2983 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:20:03 PM - SYSTEM STATS: Time:2.3608 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:25:03 PM - SYSTEM STATS: Time:2.3786 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:30:02 PM - SYSTEM STATS: Time:2.3317 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:35:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:35:03 PM - SYSTEM STATS: Time:2.3069 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:40:03 PM - SYSTEM STATS: Time:2.3659 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:45:03 PM - SYSTEM STATS: Time:2.3078 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:50:03 PM - SYSTEM STATS: Time:2.2788 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 04:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 04:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 04:55:03 PM - SYSTEM STATS: Time:2.3711 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:00:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:00:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:00:03 PM - SYSTEM STATS: Time:2.4371 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:05:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:05:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:05:03 PM - SYSTEM STATS: Time:2.3560 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:10:03 PM - SYSTEM STATS: Time:2.3554 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:15:03 PM - SYSTEM STATS: Time:2.3500 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:20:03 PM - SYSTEM STATS: Time:2.2780 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:25:03 PM - SYSTEM STATS: Time:2.3219 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:30:02 PM - SYSTEM STATS: Time:2.3089 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:35:03 PM - SYSTEM STATS: Time:2.3434 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:40:03 PM - SYSTEM STATS: Time:2.3053 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:45:03 PM - SYSTEM STATS: Time:2.3397 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:50:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:50:03 PM - SYSTEM STATS: Time:2.3600 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 05:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 05:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 05:55:03 PM - SYSTEM STATS: Time:2.3208 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 06:00:03 PM - SYSTEM STATS: Time:2.4128 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 06:05:03 PM - SYSTEM STATS: Time:2.5150 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+09/25/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+09/25/2012 06:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+09/25/2012 06:10:03 PM - SYSTEM STATS: Time:2.3000 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:05:01 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 489300 seconds have passed since the last poll!
+10/01/2012 10:05:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:05:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:05:03 AM - CMDPHP: Poller[0] ASSERT: '3163898<21321' failed. Recaching host '10.11.14.4', data query #1
+10/01/2012 10:05:03 AM - CMDPHP: Poller[0] ASSERT: '3163898<21323' failed. Recaching host '10.11.14.4', data query #8
+10/01/2012 10:05:03 AM - CMDPHP: Poller[0] ASSERT: '3163898<21323' failed. Recaching host '10.11.14.4', data query #9
+10/01/2012 10:05:04 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:05:04 AM - CMDPHP: Poller[0] ASSERT: '3164040<21482' failed. Recaching host '10.11.14.4', data query #1
+10/01/2012 10:05:04 AM - CMDPHP: Poller[0] ASSERT: '3164040<21482' failed. Recaching host '10.11.14.4', data query #8
+10/01/2012 10:05:04 AM - CMDPHP: Poller[0] ASSERT: '3164040<21482' failed. Recaching host '10.11.14.4', data query #9
+10/01/2012 10:05:04 AM - SYSTEM STATS: Time:3.0976 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:05:05 AM - PCOMMAND: Poller[0] Host[3] WARNING: Recache Event Detected for Host
+10/01/2012 10:05:08 AM - PCOMMAND: Poller[0] Host[4] WARNING: Recache Event Detected for Host
+10/01/2012 10:05:10 AM - RECACHE STATS: RecacheTime:5.2377 HostsRecached:2
+10/01/2012 10:10:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:10:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:10:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:10:03 AM - SYSTEM STATS: Time:2.3777 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:15:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:15:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:15:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:15:03 AM - SYSTEM STATS: Time:2.3912 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:20:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:20:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:20:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:20:03 AM - SYSTEM STATS: Time:2.3031 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:25:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:25:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:25:02 AM - SYSTEM STATS: Time:2.3542 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:30:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:30:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:30:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:30:03 AM - SYSTEM STATS: Time:2.3344 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:35:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:35:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:35:03 AM - SYSTEM STATS: Time:2.4417 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:40:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:40:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:40:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:40:03 AM - SYSTEM STATS: Time:2.3485 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:45:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:45:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:45:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:45:02 AM - SYSTEM STATS: Time:2.3010 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 10:50:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:50:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 10:50:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 10:50:03 AM - SYSTEM STATS: Time:2.3281 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 11:10:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:10:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:10:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:10:03 AM - SYSTEM STATS: Time:2.3851 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 11:15:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:15:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:15:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:15:03 AM - SYSTEM STATS: Time:2.4219 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 11:20:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:20:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:20:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:20:03 AM - SYSTEM STATS: Time:2.4165 Method:cmd.php Processes:1 Threads:N/A Hosts:4 HostsPerProcess:4 DataSources:67 RRDsProcessed:36
+10/01/2012 11:25:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:25:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:25:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:25:02 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:25:02 AM - SYSTEM STATS: Time:1.2225 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:30:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:30:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:30:02 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:30:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:30:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:30:03 AM - SYSTEM STATS: Time:2.4645 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:35:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:35:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:35:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:35:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:35:03 AM - SYSTEM STATS: Time:2.5093 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:40:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:40:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:40:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:40:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:40:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:40:03 AM - SYSTEM STATS: Time:2.5260 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:45:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:45:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:45:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:45:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:45:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:45:03 AM - SYSTEM STATS: Time:2.4754 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:50:01 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:50:01 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:50:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:50:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:50:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:50:03 AM - SYSTEM STATS: Time:2.4185 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 11:55:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:55:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 11:55:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 11:55:03 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 11:55:03 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 11:55:03 AM - SYSTEM STATS: Time:2.5593 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:00:03 PM - SYSTEM STATS: Time:2.5082 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:05:03 PM - SYSTEM STATS: Time:2.5032 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:10:03 PM - SYSTEM STATS: Time:2.4087 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:15:03 PM - SYSTEM STATS: Time:2.4616 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:20:03 PM - SYSTEM STATS: Time:2.5439 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:25:03 PM - SYSTEM STATS: Time:2.5545 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:30:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:30:03 PM - SYSTEM STATS: Time:2.4959 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:35:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:35:03 PM - SYSTEM STATS: Time:2.4411 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:40:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:40:03 PM - SYSTEM STATS: Time:2.5368 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:45:03 PM - SYSTEM STATS: Time:2.5213 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:50:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:50:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:50:02 PM - SYSTEM STATS: Time:2.4643 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 12:55:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:55:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 12:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 12:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 12:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 12:55:03 PM - SYSTEM STATS: Time:2.5372 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:00:03 PM - SYSTEM STATS: Time:2.5757 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:05:03 PM - SYSTEM STATS: Time:2.5224 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:10:03 PM - SYSTEM STATS: Time:2.5469 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:15:03 PM - SYSTEM STATS: Time:2.4362 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:20:03 PM - SYSTEM STATS: Time:2.4685 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:25:03 PM - SYSTEM STATS: Time:2.5721 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:30:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:30:03 PM - SYSTEM STATS: Time:2.4851 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:35:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:35:03 PM - SYSTEM STATS: Time:2.4448 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:40:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:40:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:40:03 PM - SYSTEM STATS: Time:2.4875 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:45:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:45:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:45:04 PM - SYSTEM STATS: Time:2.5205 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:50:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:50:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:50:03 PM - SYSTEM STATS: Time:2.4612 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 01:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 01:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 01:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 01:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 01:55:03 PM - SYSTEM STATS: Time:2.5277 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:00:03 PM - SYSTEM STATS: Time:2.5326 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:05:03 PM - SYSTEM STATS: Time:2.4545 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:10:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:10:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:10:03 PM - SYSTEM STATS: Time:2.4723 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:15:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:15:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:15:03 PM - SYSTEM STATS: Time:2.4327 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:20:03 PM - SYSTEM STATS: Time:2.4702 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:25:03 PM - SYSTEM STATS: Time:2.5063 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:30:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:30:03 PM - SYSTEM STATS: Time:2.4490 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:35:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:35:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:35:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:35:04 PM - SYSTEM STATS: Time:2.4782 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:40:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:40:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:40:03 PM - SYSTEM STATS: Time:2.4788 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:45:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:45:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:45:03 PM - SYSTEM STATS: Time:2.4634 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:50:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:50:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:50:03 PM - SYSTEM STATS: Time:2.5346 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 02:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 02:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 02:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 02:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 02:55:03 PM - SYSTEM STATS: Time:2.4803 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:00:03 PM - SYSTEM STATS: Time:2.5127 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:05:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:05:03 PM - SYSTEM STATS: Time:2.4891 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:10:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:10:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:10:03 PM - SYSTEM STATS: Time:2.5364 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:15:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:15:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:15:03 PM - SYSTEM STATS: Time:2.5370 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:20:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:20:03 PM - SYSTEM STATS: Time:2.5017 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:25:03 PM - SYSTEM STATS: Time:2.4558 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:30:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:30:03 PM - SYSTEM STATS: Time:2.5166 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:35:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:35:03 PM - SYSTEM STATS: Time:2.4718 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:40:03 PM - SYSTEM STATS: Time:2.5146 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:45:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:45:03 PM - SYSTEM STATS: Time:2.4391 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:50:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:50:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:50:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:50:03 PM - SYSTEM STATS: Time:2.4618 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 03:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 03:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 03:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 03:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 03:55:03 PM - SYSTEM STATS: Time:2.5108 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:00:03 PM - SYSTEM STATS: Time:2.6331 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:05:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:05:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:05:03 PM - SYSTEM STATS: Time:2.4506 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:10:03 PM - SYSTEM STATS: Time:2.5330 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:15:03 PM - SYSTEM STATS: Time:2.5326 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:20:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:20:03 PM - SYSTEM STATS: Time:2.4808 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:25:02 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:25:02 PM - SYSTEM STATS: Time:2.4590 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:30:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:30:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:30:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:30:03 PM - SYSTEM STATS: Time:2.4752 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:35:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:35:03 PM - SYSTEM STATS: Time:2.5207 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:40:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:40:03 PM - SYSTEM STATS: Time:2.4327 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:45:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:45:03 PM - SYSTEM STATS: Time:2.7059 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:50:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:50:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:50:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:50:03 PM - SYSTEM STATS: Time:2.4706 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 04:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 04:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 04:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 04:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 04:55:03 PM - SYSTEM STATS: Time:2.5455 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:00:03 PM - SYSTEM STATS: Time:2.5915 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:05:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:05:03 PM - SYSTEM STATS: Time:2.5385 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:10:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:10:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:10:04 PM - SYSTEM STATS: Time:2.4983 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:15:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:15:03 PM - SYSTEM STATS: Time:2.5172 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:20:03 PM - SYSTEM STATS: Time:2.5512 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:25:03 PM - SYSTEM STATS: Time:2.5347 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:30:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:30:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:30:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:30:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:30:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:30:03 PM - SYSTEM STATS: Time:2.4140 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:35:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:35:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:35:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:35:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:35:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:35:03 PM - SYSTEM STATS: Time:2.4421 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:40:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:40:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:40:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:40:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:40:03 PM - SYSTEM STATS: Time:2.4583 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:45:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:45:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:45:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:45:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:45:03 PM - SYSTEM STATS: Time:2.4479 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:50:02 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:50:02 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:50:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:50:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:50:04 PM - SYSTEM STATS: Time:2.5076 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 05:55:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:55:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 05:55:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 05:55:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 05:55:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 05:55:03 PM - SYSTEM STATS: Time:2.5743 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:00:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:00:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:00:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:00:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:00:03 PM - SYSTEM STATS: Time:2.6918 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:05:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:05:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:05:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:05:03 PM - SYSTEM STATS: Time:2.5428 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:10:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:10:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:10:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:10:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:10:03 PM - SYSTEM STATS: Time:2.4895 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:15:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:15:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:15:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:15:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:15:03 PM - SYSTEM STATS: Time:2.5459 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:20:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:20:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:20:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:20:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:20:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:20:03 PM - SYSTEM STATS: Time:2.5727 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/01/2012 06:25:01 PM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:25:01 PM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/01/2012 06:25:02 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/01/2012 06:25:03 PM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/01/2012 06:25:03 PM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/01/2012 06:25:03 PM - SYSTEM STATS: Time:2.3962 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/02/2012 10:00:01 AM - POLLER: Poller[0] WARNING: Cron is out of sync with the Poller Interval!  The Poller Interval is '300' seconds, with a maximum of a '300' second Cron, but 56101 seconds have passed since the last poll!
+10/02/2012 10:00:02 AM - CMDPHP: Poller[0] Host[1] DS[3] WARNING: Result from CMD not valid.  Partial Result: U
+10/02/2012 10:00:02 AM - CMDPHP: Poller[0] Host[1] DS[4] WARNING: Result from CMD not valid.  Partial Result: U
+10/02/2012 10:00:02 AM - CMDPHP: Poller[0] ASSERT: '3021132<34165' failed. Recaching host '10.11.14.4', data query #1
+10/02/2012 10:00:02 AM - CMDPHP: Poller[0] ASSERT: '3021132<34167' failed. Recaching host '10.11.14.4', data query #8
+10/02/2012 10:00:02 AM - CMDPHP: Poller[0] ASSERT: '3021132<34167' failed. Recaching host '10.11.14.4', data query #9
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.2.1.25.2.3.1.5.8'
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021273<34317' failed. Recaching host '10.11.14.4', data query #1
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021273<34317' failed. Recaching host '10.11.14.4', data query #8
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021273<34317' failed. Recaching host '10.11.14.4', data query #9
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021276<34321' failed. Recaching host '10.11.14.4', data query #1
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021276<34321' failed. Recaching host '10.11.14.4', data query #8
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] ASSERT: '3021276<34323' failed. Recaching host '10.11.14.4', data query #9
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] WARNING: SNMP Get Timeout for Host:'10.11.14.4', and OID:'.1.3.6.1.4.1.9.2.1.58.0'
+10/02/2012 10:00:04 AM - CMDPHP: Poller[0] Host[5] DS[74] WARNING: Result from SNMP not valid.  Partial Result: U
+10/02/2012 10:00:04 AM - SYSTEM STATS: Time:2.9212 Method:cmd.php Processes:1 Threads:N/A Hosts:5 HostsPerProcess:5 DataSources:84 RRDsProcessed:45
+10/02/2012 10:00:05 AM - PCOMMAND: Poller[0] Host[3] WARNING: Recache Event Detected for Host
+10/02/2012 10:00:08 AM - PCOMMAND: Poller[0] Host[4] WARNING: Recache Event Detected for Host
+10/02/2012 10:00:10 AM - PCOMMAND: Poller[0] Host[5] WARNING: Recache Event Detected for Host
+10/02/2012 10:00:12 AM - RECACHE STATS: RecacheTime:7.6969 HostsRecached:3
