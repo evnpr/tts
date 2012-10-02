@@ -483,17 +483,11 @@ function form_actions() {
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
 				frm = document.forms[0];
-				alert(frm.select.name);
+				alert(frm.name);
 				for (var i=0;i<frm.tree_item_id.options.length;i++) {
 					if (frm.tree_item_id.options[i].text == '--- test5'){
 						frm.tree_item_id.options[i].selected = true;
-						gotit = 1;
-					}
-					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
-					if (gotit == 1){
-						if (frm.tree_item_id.options[i].text == '------ drive D'){
-							frm.tree_item_id.options[i].selected = true;
-						}
+						var gotit = 1;
 					}
 				}
 
