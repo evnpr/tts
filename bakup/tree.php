@@ -1,7 +1,9 @@
 <?php
 setcookie("thetreename", 'test5');
 setcookie("thetreenamechild", 'Drive C');
+
 $_COOKIE["thetreename"] = 'test5';
+$_COOKIE["thetreenamechild"] = 'Drive C';
 /*
  +-------------------------------------------------------------------------+
  | Copyright (C) 2004-2011 The Cacti Group                                 |
@@ -499,7 +501,7 @@ function tree() {
 	for (var i=0;i<frm.parent_item_id.options.length;i++) {
 		if (frm.parent_item_id.options[i].text == '--- <?php echo $_COOKIE["thetreename"] ?>'){
 			frm.parent_item_id.options[i].selected = true;
-			document.getElementById("title").value = 'safasf'
+			document.getElementById("title").value = <?php echo $_COOKIE["thetreenamechild"]; ?>
 		}
 	}
 </script>
