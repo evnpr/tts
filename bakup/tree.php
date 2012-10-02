@@ -217,7 +217,7 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-				
+	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;			
 if ($_SESSION["thetreenamechild"] == 'drive J')
 	$_SESSION["thetreenamechild"] = 'drive H';
 else if ($_SESSION["thetreenamechild"] == 'drive G')
