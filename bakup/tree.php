@@ -493,5 +493,5 @@ function tree() {
 
  
 <script language="JavaScript">
-alert(document.forms[0].name);
+alert(document.forms[0].select[0].name);
 </script>
