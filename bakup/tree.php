@@ -46,7 +46,7 @@ else if ($_SESSION["thetreenamechild"] == 'drive C')
 else
 	$_SESSION["thetreenamechild"] = 'drive C';
 
-$_SESSION["thetreename"] = 'test5';
+$_SESSION["thetreename"] = 'test6';
 
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
