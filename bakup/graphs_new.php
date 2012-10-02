@@ -883,7 +883,7 @@ function graphs() {
 						}
 
 						print "<td align='right'>";
-						if( $snmp_query["name"] == '[SNMP - Get Mounted Partitions]')
+						if( $snmp_query["name"] == 'SNMP - Get Mounted Partitions')
 							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();' checked='checked'>";
 						else
 							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();'>";							
