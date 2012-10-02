@@ -479,7 +479,7 @@ function form_actions() {
 			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			if ($_SESSION['thedrivedone']==1){
-				1=1;
+				$evanpurnama = 1;
 			}else{
 				if ($_SESSION['thedrive'] == 'D:')
 					$_SESSION['thedrive'] = 'C:';
