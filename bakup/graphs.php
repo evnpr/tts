@@ -387,7 +387,7 @@ function form_actions() {
 
 	html_start_box("<strong>" . $graph_actions{$_POST["drp_action"]} . "</strong>", "60%", $colors["header_panel"], "3", "center", "");
 
-	print "<form action='graphs.php' method='post'>\n";
+	print "<form name='testonly' action='graphs.php' method='post'>\n";
 
 	if (isset($graph_array) && sizeof($graph_array)) {
 		if ($_POST["drp_action"] == "1") { /* delete */
@@ -483,7 +483,7 @@ function form_actions() {
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
 				frm = document.forms[0];
-				alert(frm.action);
+				alert(frm.name);
 				for (var i=0;i<frm.tree_item_id.options.length;i++) {
 					if (frm.tree_item_id.options[i].text == '--- test5'){
 						gotit = 1;
