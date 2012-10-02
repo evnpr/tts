@@ -226,8 +226,10 @@ else if ($_SESSION["thetreenamechild"] == 'drive D')
 	$_SESSION["thetreenamechild"] = 'drive G';
 else if ($_SESSION["thetreenamechild"] == 'drive C')
 	$_SESSION["thetreenamechild"] = 'drive D';
-else
+else if ($_SESSION["thetreenamechild"] == 'drive CC')
 	$_SESSION["thetreenamechild"] = 'drive C';
+else
+	$_SESSION["thetreenamechild"] = 'drive CC';
 
 
 
