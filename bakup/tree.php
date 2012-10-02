@@ -218,22 +218,22 @@ function item_edit() {
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
 				
-if ($_SESSION["thetreenamechild"] == 'drive J')
+if ($_SESSION["thetreenamechild"] == 'drive J'){
 	$_SESSION["thetreenamechild"] = 'drive H';
-	$driveH = 1;
-else if ($_SESSION["thetreenamechild"] == 'drive G')
+	$driveH = 1;}
+else if ($_SESSION["thetreenamechild"] == 'drive G'){
 	$_SESSION["thetreenamechild"] = 'drive J';
-	$driveJ = 1;
-else if ($_SESSION["thetreenamechild"] == 'drive D')
+	$driveJ = 1;}
+else if ($_SESSION["thetreenamechild"] == 'drive D'){
 	$_SESSION["thetreenamechild"] = 'drive G';
-	$driveG = 1;
-else if ($_SESSION["thetreenamechild"] == 'drive C')
+	$driveG = 1;}
+else if ($_SESSION["thetreenamechild"] == 'drive C'){
 	$_SESSION["thetreenamechild"] = 'drive D';
-	$driveD = 1;
-else
+	$driveD = 1;}
+else{
 	$_SESSION["thetreenamechild"] = 'drive C';
 	$driveC = 1;
-
+}
 
 
 					echo $_SESSION["thetreename"];
