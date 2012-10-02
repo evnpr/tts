@@ -487,10 +487,9 @@ function form_actions() {
 				$drive = 'E:';
 			else if ($drive == 'G:')
 				$drive = 'F:';
-			else
-				$drive = 'G:';
+				
 			$drive = str_replace(":", "", $drive);
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' onClick='this.form.submit()' title='Place Graph(s) on Tree'>";
+			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
@@ -1346,7 +1345,7 @@ function graph() {
 	if (sizeof($graph_list) > 0) {
 								
 			if ($_SESSION["thedrive"] == 'F:')
-				$_SESSION["thedrive"] = 'G:';
+
 			else if ($_SESSION["thedrive"] == 'E:')
 				$_SESSION["thedrive"] = 'F:';
 			else if ($_SESSION["thedrive"] == 'D:')
