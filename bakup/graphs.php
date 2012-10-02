@@ -546,7 +546,7 @@ function form_actions() {
 		$save_html = "<input type='button' value='Return' onClick='window.history.back()'>";
 		?>
 		<script>
-		window.history.back();
+		//window.history.back();
 		</script>
 		<?php
 	}
