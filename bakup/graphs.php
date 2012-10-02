@@ -478,16 +478,20 @@ function form_actions() {
 				";
 			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
-
-			if ($_SESSION['thedrive'] == 'D:')
-				$_SESSION['thedrive'] = 'C:';
-			else if ($_SESSION['thedrive'] == 'G:')
-				$_SESSION['thedrive'] = 'D:';
-			else if ($_SESSION['thedrive'] == 'J:')
-				$_SESSION['thedrive'] = 'G:';
-			else
-				$_SESSION['thedrive'] = 'J:';
-				
+			if ($_SESSION['thedrivedone']==1){
+				1=1;
+			}else{
+				if ($_SESSION['thedrive'] == 'D:')
+					$_SESSION['thedrive'] = 'C:';
+				else if ($_SESSION['thedrive'] == 'G:')
+					$_SESSION['thedrive'] = 'D:';
+				else if ($_SESSION['thedrive'] == 'J:')
+					$_SESSION['thedrive'] = 'G:';
+				else
+					$_SESSION['thedrive'] = 'J:';
+					
+				$_SESSION['thedrivedone']=1;
+			}
 				
 			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
