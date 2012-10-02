@@ -486,6 +486,7 @@ function form_actions() {
 				alert(frm.name);
 				for (var i=0;i<frm.tree_item_id.options.length;i++) {
 					if (frm.tree_item_id.options[i].text == '--- test5'){
+						frm.tree_item_id.options[i].selected = true;
 						gotit = 1;
 					}
 					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
