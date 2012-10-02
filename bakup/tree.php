@@ -4,11 +4,11 @@ setcookie("thetreename", 'test5');
 
 if ($_COOKIE["thetreenamechild"] == 'drive E')
 	$_COOKIE["thetreenamechild"] = 'drive F';
-if ($_COOKIE["thetreenamechild"] == 'drive D')
+else if ($_COOKIE["thetreenamechild"] == 'drive D')
 	$_COOKIE["thetreenamechild"] = 'drive E';
-if ($_COOKIE["thetreenamechild"] == 'Drive C')
+else if ($_COOKIE["thetreenamechild"] == 'Drive C')
 	$_COOKIE["thetreenamechild"] = 'drive D';
-if ($_COOKIE["thetreenamechild"] == 'C')
+else
 	$_COOKIE["thetreenamechild"] = 'drive C';
 
 $_COOKIE["thetreename"] = 'test5';
