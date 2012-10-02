@@ -506,7 +506,6 @@ function form_actions() {
 						}
 					}
 				}
-				document.getElementById("theclick").click();
 			</script>
 			<?php
 			
