@@ -1,6 +1,6 @@
 <?php
 setcookie("thetreename", 'test5');
-if !isset($_COOKIE["thetreenamechild"])
+if (!isset($_COOKIE["thetreenamechild"]))
 	setcookie("thetreenamechild", 'C');
 
 if ($_COOKIE["thetreenamechild"] == 'drive E')
