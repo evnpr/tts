@@ -494,7 +494,7 @@ function tree() {
  
 <script language="JavaScript"><!--
 	for (var i=0;i<document.form_tree.parent_time_id.options.length;i++) {
-		if (document.form_tree.parent_time_id.options[i].value == 'test3')
+		if (document.form_tree.parent_time_id.options[i].value == '18')
 			document.form_tree.parent_time_id.options[i].selected = true;
 	}
 </script>
