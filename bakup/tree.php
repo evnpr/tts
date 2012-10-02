@@ -217,20 +217,21 @@ function item_edit() {
 			</td>
 			<td>
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
-	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;			
+	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;	
+	if(!isset($_SESSION["thetreenamechilddone"])) $_SESSION["thetreenamechilddone"] = 0 ;			
 if ($_SESSION["thetreenamechild"] == 'drive J')
-	$_SESSION["thetreenamechild"] = 'drive H';
+{	
+$_SESSION["thetreenamechild"] = 1;
+$_SESSION["thetreenamechilddone"] = $_SESSION["thetreenamechilddone"] + 1;
+}
 else if ($_SESSION["thetreenamechild"] == 'drive G')
 	$_SESSION["thetreenamechild"] = 'drive J';
 else if ($_SESSION["thetreenamechild"] == 'drive D')
 	$_SESSION["thetreenamechild"] = 'drive G';
 else if ($_SESSION["thetreenamechild"] == 'drive C')
 	$_SESSION["thetreenamechild"] = 'drive D';
-else if ($_SESSION["thetreenamechild"] == 'drive CC')
-	$_SESSION["thetreenamechild"] = 'drive C';
 else
-	$_SESSION["thetreenamechild"] = 'drive CC';
-
+	$_SESSION["thetreenamechild"] = 'drive C';
 
 
 					echo $_SESSION["thetreename"];
@@ -526,7 +527,7 @@ function tree() {
 		}
 	}
 	
-	if('<?php echo $_SESSION["thetreenamechild"]; ?>'=='drive GG')
+	if('<?php echo $_SESSION["thetreenamechilddone"]; ?>'==2)
 		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
 	else
 		frm.submit();
