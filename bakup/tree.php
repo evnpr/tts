@@ -492,21 +492,9 @@ function tree() {
  ?>
 
  
- <script>
- 
-function searchMethod() {
-	var searchTerm = <?php echo $_COOKIE["thetreename"] ?>;
-	var searchBounds = document.parent_time_id;
-	var unlucky_me = true;
-	for(var i=0; i< searchBounds.length; i++){
-		if(searchBounds[i].value==searchTerm){
-			document.parent_time_id.value = searchTerm
-			unlucky_me=false
-			break;
-		}
+<script language="JavaScript"><!--
+	for (var i=0;i<document.form_tree.parent_time_id.options.length;i++) {
+		if (document.form_tree.parent_time_id.options[i].value == 'test3')
+			document.form_tree.parent_time_id.options[i].selected = true;
 	}
-	
-	if(unlucky_me) alert('Too bad');
-}
- 
- </script>
+</script>
