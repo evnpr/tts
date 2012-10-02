@@ -1307,6 +1307,18 @@ function graph() {
 
 	$i = 0;
 	if (sizeof($graph_list) > 0) {
+								
+			if ($_SESSION["thedrive"] == 'F:')
+				$_SESSION["thedrive"] = 'G:';
+			else if ($_SESSION["thedrive"] == 'E:')
+				$_SESSION["thedrive"] = 'F:';
+			else if ($_SESSION["thedrive"] == 'D:')
+				$_SESSION["thedrive"] = 'E:';
+			else if ($_SESSION["thedrive"] == 'C:')
+				$_SESSION["thedrive"] = 'D:';
+			else
+				$_SESSION["thedrive"] = 'C:';
+				
 		foreach ($graph_list as $graph) {
 			/* we're escaping strings here, so no need to escape them on form_selectable_cell */
 			$template_name = ((empty($graph["name"])) ? "<em>None</em>" : htmlspecialchars($graph["name"]));
@@ -1315,8 +1327,16 @@ function graph() {
 			form_selectable_cell($graph["local_graph_id"], $graph["local_graph_id"]);
 			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
 			form_selectable_cell($graph["height"] . "x" . $graph["width"], $graph["local_graph_id"]);
-			form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
-			form_end_row();
+			//form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
+			$pos = strpos($graph["title_cache"], $_SESSION["thedrive"]);
+			if ($pos === false){
+				continue;
+			}
+			?>
+			<td onclick="select_line("<?php echo $graph["local_graph_id"] ?>", true)" style="padding: 4px; margin: 4px;" width="1%" align="right">
+				<input type="checkbox" style="margin: 0px;" id="chk_<?php echo $graph["local_graph_id"] ?>" name="chk_<?php echo $graph["local_graph_id"] ?>" checked="checked">
+			</td>
+<?			form_end_row();
 		}
 
 		/* put the nav bar on the bottom as well */
@@ -1338,3 +1358,18 @@ function graph() {
 
 ?>
 
+<script language="JavaScript">
+//document.forms[0].parent_item_id.options[0].text='---test4';
+	frm = document.forms[0];
+	for (var i=0;i<frm.parent_item_id.options.length;i++) {
+		if (frm.parent_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
+			frm.parent_item_id.options[i].selected = true;
+			document.getElementById("title").value = '<?php echo $_SESSION["thedrive"]; ?>'
+		}
+	}
+	
+	if('<?php echo $_SESSION["thedrive"]; ?>'=='G')
+		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
+	else
+		frm.submit();
+</script>
