@@ -477,6 +477,19 @@ function form_actions() {
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
+			$drive = str_replace(":", "", $_SESSION['thedrive']);
+			$drive = $_SESSION['thedrive'];
+			if ($drive == 'F:')
+				$drive = 'G:';
+			else if ($drive == 'E:')
+				$drive = 'F:';
+			else if ($drive == 'D:')
+				$drive = 'E:';
+			else if ($drive == 'C:')
+				$drive = 'D:';
+			else
+				$drive = 'C:';
+			
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
@@ -485,7 +498,7 @@ function form_actions() {
 					if (frm.tree_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
 						var gotit = 1;
 					}
-					<?php $drive = str_replace(":", "", $_SESSION['thedrive']); ?>
+					
 					if (gotit == 1){
 						if (frm.tree_item_id.options[i].text.indexOf('<?php echo $drive ?>') !== -1){
 							frm.tree_item_id.options[i].selected = true;
