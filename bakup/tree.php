@@ -14,6 +14,7 @@ if ($_COOKIE["thetreenamechild"] == 'C')
 
 
 $_COOKIE["thetreename"] = 'test5';
+	$_COOKIE["thetreenamechild"] = 'drive D';
 /*
  +-------------------------------------------------------------------------+
  | Copyright (C) 2004-2011 The Cacti Group                                 |
