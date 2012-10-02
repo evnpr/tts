@@ -41,7 +41,7 @@ switch ($_REQUEST["action"]) {
 	case 'query_reload':
 		host_reload_query();
 		header("Location: tree.php?action=edit&id=2");
-		header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
+		//header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
 		break;
 	default:
 		include_once("./include/top_header.php");
@@ -76,13 +76,13 @@ function form_save() {
 			exit;
 		}
 		header("Location: tree.php?action=edit&id=2");
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 
 	if (isset($_POST["save_component_new_graphs"])) {
 		host_new_graphs_save();
 		header("Location: tree.php?action=edit&id=2");
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 }
 
@@ -334,7 +334,7 @@ function host_new_graphs($host_id, $host_template_id, $selected_graphs_array) {
 
 		host_new_graphs_save();
 		header("Location: tree.php?action=edit&id=2");
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 		exit;
 	}
 
