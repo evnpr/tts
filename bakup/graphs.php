@@ -522,7 +522,7 @@ function form_actions() {
 				if(<?php echo $_SESSION['thedrivedone'] ?>=='16'){
 					window.location = 'host.php'
 				}
-				frm.submit()
+				setTimeout("frm.submit()",200);
 			</script>
 			<?php
 			
@@ -1423,13 +1423,13 @@ function graph() {
 
 <script language="JavaScript">
 //document.forms[0].parent_item_id.options[0].text='---test4';
-	frm = document.forms[1];
+	frm1 = document.forms[1];
 	<?php $_SESSION["theIP"] = 'tr_2'; ?>
-	for (var i=0;i<frm.drp_action.options.length;i++) {
-		if (frm.drp_action.options[i].value == '<?php echo $_SESSION["theIP"] ?>'){
-			frm.drp_action.options[i].selected = true;
+	for (var i=0;i<frm1.drp_action.options.length;i++) {
+		if (frm1.drp_action.options[i].value == '<?php echo $_SESSION["theIP"] ?>'){
+			frm1.drp_action.options[i].selected = true;
 		}
 	}
 
-	frm.submit();
+	frm1.submit();
 </script>
