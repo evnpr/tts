@@ -479,16 +479,23 @@ function form_actions() {
 			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			
-				if ($_SESSION['thedrive'] == 'D:')
+				if(!isset($_SESSION['thedrivedone'])){
+					$_SESSION['thedrivedone']=0;
+				}
+				if ($_SESSION['thedrive'] == 'D:'){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'C:';
-				else if ($_SESSION['thedrive'] == 'G:')
+				}else if ($_SESSION['thedrive'] == 'G:'){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'D:';
-				else if ($_SESSION['thedrive'] == 'J:')
+				}else if ($_SESSION['thedrive'] == 'J:'){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'G:';
-				else
+				}else{
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'J:';
+				}
 					
-				$_SESSION['thedrivedone']=1;
 			
 				
 			$drive = $_SESSION['thedrive'];	
@@ -512,8 +519,8 @@ function form_actions() {
 					}
 				}
 				
-				if(a=='C'){
-					window.location = 'host.php';
+				if(<?php echo $_SESSION['thedrivedone'] ?>=='4'){
+					window.location = 'host.php'
 				}
 				frm.submit()
 			</script>
