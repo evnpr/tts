@@ -497,7 +497,7 @@ function form_actions() {
 				}
 					
 				//uDrive = uniqueDrive
-				$uDrive = explode($_SESSION['thedrivedone'],"");
+				$uDrive = explode("",$_SESSION['thedrivedone']);
 				$uDrive = array_unique($uDrive);
 				$uDrive = asort($uDrive);
 				if (in_array("CDGJ", $uDrive)) {
