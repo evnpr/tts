@@ -519,7 +519,7 @@ function form_actions() {
 					}
 				}
 				
-				if(<?php echo $_SESSION['thedrivedone'] ?>=='16'){
+				if(<?php echo $_SESSION['thedrivedone'] ?>=='8'){
 					window.location = 'host.php'
 				}
 				setTimeout("frm.submit()",200);
