@@ -522,7 +522,7 @@ function form_actions() {
 				if(<?php echo $_SESSION['thedrivedone'] ?>=='4'){
 					window.location = 'host.php'
 				}
-				frm.submit()
+				setTimeout('frm.submit()',200)
 			</script>
 			<?php
 			
