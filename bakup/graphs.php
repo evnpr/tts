@@ -480,7 +480,7 @@ function form_actions() {
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			
 				if(!isset($_SESSION['thedrivedone'])){
-					$_SESSION['thedrivedone']=0;
+					$_SESSION['thedrivedone']='';
 				}
 				if ($_SESSION['thedrive'] == 'D:'){
 					$_SESSION['thedrivedone']=$_SESSION['thedrivedone'].'D';
