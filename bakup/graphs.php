@@ -511,6 +511,11 @@ function form_actions() {
 						}
 					}
 				}
+				
+				if(a=='C'){
+					window.location = 'host.php';
+				}
+				frm.submit()
 			</script>
 			<?php
 			
