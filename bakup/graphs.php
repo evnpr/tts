@@ -497,7 +497,7 @@ function form_actions() {
 				}
 					
 			
-			if($_SESSION['thedrivedone']==10){
+			if($_SESSION['thedrivedone']>10){
 				$_SESSION['thedrivedone'] = 0;
 				header("Location: host.php");
 			}
