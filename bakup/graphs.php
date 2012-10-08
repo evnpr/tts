@@ -470,7 +470,7 @@ function form_actions() {
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
 						<p>When you click \"Continue\", the following Graph(s) will be placed under the Tree Branch selected below.</p>
-						<p><ul>$graph_list</ul></p>
+						<p><ul><span id='theGraphList'>$graph_list</span></ul></p>
 						<p><strong>Destination Branch:</strong><br>"; grow_dropdown_tree($matches[1], "tree_item_id", "0"); print "</p>
 					</td>
 				</tr>\n
@@ -504,7 +504,9 @@ function form_actions() {
 					}
 					
 					if (gotit == 1){
-						if (frm.tree_item_id.options[i].text.indexOf('<?php echo $drive ?>') !== -1){
+						var a = document.getElementById('theGraphList').innerHTML
+						a = a.split('-')[2].split(':')[0]
+						if (frm.tree_item_id.options[i].text.indexOf(a) !== -1){
 							frm.tree_item_id.options[i].selected = true;
 						}
 					}
