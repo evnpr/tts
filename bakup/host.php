@@ -34,7 +34,7 @@ include_once("./lib/data_query.php");
 include_once("./lib/api_device.php");
 
 define("MAX_DISPLAY_PAGES", 21);
-
+$_SESSION['thedrivedone'] = 0;
 $device_actions = array(
 	1 => "Delete",
 	2 => "Enable",

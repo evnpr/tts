@@ -497,10 +497,7 @@ function form_actions() {
 				}
 					
 			
-			if($_SESSION['thedrivedone']>10){
-				$_SESSION['thedrivedone'] = 0;
-				header("Location: host.php");
-			}
+				
 			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
@@ -522,7 +519,9 @@ function form_actions() {
 					}
 				}
 				
-				
+				if(<?php echo $_SESSION['thedrivedone'] ?>=='10'){
+					window.location = 'host.php'
+				}
 				setTimeout("frm.submit()",200);
 			</script>
 			<?php
