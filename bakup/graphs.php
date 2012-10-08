@@ -1349,14 +1349,14 @@ function graph() {
 	if (sizeof($graph_list) > 0) {
 								
 
-			if ($_SESSION["thedrive"] == 'G:')
-				$_SESSION["thedrive"] = 'J:';
-			else if ($_SESSION["thedrive"] == 'D:')
-				$_SESSION["thedrive"] = 'G:';
-			else if ($_SESSION["thedrive"] == 'C:')
-				$_SESSION["thedrive"] = 'D:';
-			else
-				$_SESSION["thedrive"] = 'C:';
+			// if ($_SESSION["thedrive"] == 'G:')
+				// $_SESSION["thedrive"] = 'J:';
+			// else if ($_SESSION["thedrive"] == 'D:')
+				// $_SESSION["thedrive"] = 'G:';
+			// else if ($_SESSION["thedrive"] == 'C:')
+				// $_SESSION["thedrive"] = 'D:';
+			// else
+				// $_SESSION["thedrive"] = 'C:';
 				
 		foreach ($graph_list as $graph) {
 			/* we're escaping strings here, so no need to escape them on form_selectable_cell */
