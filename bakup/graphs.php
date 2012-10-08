@@ -478,9 +478,7 @@ function form_actions() {
 				";
 			
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
-			if ($_SESSION['thedrivedone']==1){
-				$evanpurnama = 1;
-			}else{
+			
 				if ($_SESSION['thedrive'] == 'D:')
 					$_SESSION['thedrive'] = 'C:';
 				else if ($_SESSION['thedrive'] == 'G:')
@@ -491,7 +489,7 @@ function form_actions() {
 					$_SESSION['thedrive'] = 'J:';
 					
 				$_SESSION['thedrivedone']=1;
-			}
+			
 				
 			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
