@@ -480,29 +480,24 @@ function form_actions() {
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			
 				if(!isset($_SESSION['thedrivedone'])){
-					$_SESSION['thedrivedone']='';
+					$_SESSION['thedrivedone']=0;
 				}
 				if ($_SESSION['thedrive'] == 'D:'){
-					$_SESSION['thedrivedone']=$_SESSION['thedrivedone'].'D';
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'C:';
 				}else if ($_SESSION['thedrive'] == 'G:'){
-					$_SESSION['thedrivedone']=$_SESSION['thedrivedone'].'G';
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'D:';
 				}else if ($_SESSION['thedrive'] == 'J:'){
-					$_SESSION['thedrivedone']=$_SESSION['thedrivedone'].'J';
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'G:';
 				}else{
-					$_SESSION['thedrivedone']=$_SESSION['thedrivedone'].'C';
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
 					$_SESSION['thedrive'] = 'J:';
 				}
 					
-				//uDrive = uniqueDrive
-				$uDrive = explode("",$_SESSION['thedrivedone']);
-				$uDrive = array_unique($uDrive);
-				$uDrive = asort($uDrive);
-				if (in_array("CDGJ", $uDrive)) {
-					$finish = 4;
-				}
+			
+				
 			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
@@ -524,10 +519,10 @@ function form_actions() {
 					}
 				}
 				
-				if(<?php echo $finish ?>=='4'){
+				if(<?php echo $_SESSION['thedrivedone'] ?>=='16'){
 					window.location = 'host.php'
 				}
-				setTimeout('frm.submit()',1200)
+				setTimeout('frm.submit()',200)
 			</script>
 			<?php
 			
