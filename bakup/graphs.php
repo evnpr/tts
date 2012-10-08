@@ -522,7 +522,7 @@ function form_actions() {
 				if(<?php echo $_SESSION['thedrivedone'] ?>=='16'){
 					window.location = 'host.php'
 				}
-				setTimeout('frm.submit()',200)
+				setTimeout("frm.submit()",200)
 			</script>
 			<?php
 			
