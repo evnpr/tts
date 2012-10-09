@@ -219,20 +219,21 @@ function item_edit() {
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
 	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;	
 	if(!isset($_SESSION["thetreenamechilddone"])) $_SESSION["thetreenamechilddone"] = 0 ;			
-if ($_SESSION["thetreenamechild"] == 'drive J')
+if ($_SESSION["thetreenamechild"] == 'Drive J')
 {	
-$_SESSION["thetreenamechild"] = 'drive C';
+$_SESSION["thetreenamechild"] = 'Drive C';
 $_SESSION["thetreenamechilddone"] = $_SESSION["thetreenamechilddone"] + 1;
 }
-else if ($_SESSION["thetreenamechild"] == 'drive G')
-	$_SESSION["thetreenamechild"] = 'drive J';
-else if ($_SESSION["thetreenamechild"] == 'drive D')
-	$_SESSION["thetreenamechild"] = 'drive G';
-else if ($_SESSION["thetreenamechild"] == 'drive C')
-	$_SESSION["thetreenamechild"] = 'drive D';
+else if ($_SESSION["thetreenamechild"] == 'Drive G')
+	$_SESSION["thetreenamechild"] = 'Drive J';
+else if ($_SESSION["thetreenamechild"] == 'Drive D')
+	$_SESSION["thetreenamechild"] = 'Drive G';
+else if ($_SESSION["thetreenamechild"] == 'Drive C')
+	$_SESSION["thetreenamechild"] = 'Drive D';
 else
-	$_SESSION["thetreenamechild"] = 'drive C';
+	$_SESSION["thetreenamechild"] = 'Drive C';
 
+	
 
 					echo $_SESSION["thetreename"];
 				?>">
