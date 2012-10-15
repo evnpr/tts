@@ -1,4 +1,5 @@
 <?php
+// $Id: html_form.php 2993 2010-10-14 14:30:36Z ladams $
 /*
  +-------------------------------------------------------------------------+
  | Copyright (C) 2004-2011 The Cacti Group                                 |
@@ -766,11 +767,13 @@ function form_confirm($title_text, $body_text, $cancel_url, $action_url) { ?>
      on a confirmation form
    @arg $cancel_url - the url to go to when the user clicks 'cancel'
    @arg $action_url - the url to go to when the user clicks 'delete' */
-function form_confirm_buttons($action_url, $cancel_url) { ?>
+function form_confirm_buttons($action_url, $cancel_url) {
+	global $config;
+	?>
 	<tr>
 		<td bgcolor="#E1E1E1">
-			<input type='button' onClick='cactiReturnTo("<?php print $cancel_url;?>")' value='Cancel'>
-			<input type='submit' onClick='cactiReturnTo("<?php print $action_url;?>&confirm=true")' value='Delete'>
+			<input type='button' onClick='cactiReturnTo("<?php print $config['url_path'] . $cancel_url;?>")' value='Cancel'>
+			<input type='submit' onClick='cactiReturnTo("<?php print $config['url_path'] . $action_url;?>&confirm=true")' value='Delete'>
 		</td>
 	</tr>
 <?php }

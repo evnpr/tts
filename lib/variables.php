@@ -66,6 +66,7 @@ function update_data_source_title_cache_from_host($host_id) {
    @arg $local_data_id - (int) the ID of the data source to update the title cache for */
 function update_data_source_title_cache($local_data_id) {
 	db_execute("update data_template_data set name_cache='" . addslashes(get_data_source_title($local_data_id)) . "' where local_data_id=$local_data_id");
+	api_plugin_hook_function('update_data_source_title_cache', $local_data_id);
 }
 
 /* update_graph_title_cache_from_template - updates the title cache for all graphs
@@ -182,6 +183,9 @@ function substitute_host_data($string, $l_escape_string, $r_escape_string, $host
 	$string = str_replace($l_escape_string . "host_ping_retries" . $r_escape_string, $_SESSION["sess_host_cache_array"][$host_id]["ping_retries"], $string);
 	$string = str_replace($l_escape_string . "host_max_oids" . $r_escape_string, $_SESSION["sess_host_cache_array"][$host_id]["max_oids"], $string);
 	$string = str_replace($l_escape_string . "host_id" . $r_escape_string, $_SESSION["sess_host_cache_array"][$host_id]["id"], $string);
+
+	$temp = api_plugin_hook_function('substitute_host_data', array('string' => $string, 'l_escape_string' => $l_escape_string, 'r_escape_string' => $r_escape_string, 'host_id' => $host_id));
+	$string = $temp['string'];
 
 	return $string;
 }

@@ -512,6 +512,7 @@ function graphs() {
 			<td nowrap style='white-space: nowrap;' class="textInfo" align="center" valign="top">
 				<span style="white-space: nowrap; color: #c16921;">*</span><a href="<?php print htmlspecialchars("host.php?action=edit&id=" . $_REQUEST["host_id"]);?>">Edit this Host</a><br>
 				<span style="white-space: nowrap; color: #c16921;">*</span><a href="<?php print htmlspecialchars("host.php?action=edit");?>">Create New Host</a><br>
+				<?php api_plugin_hook('graphs_new_top_links'); ?>
 			</td>
 		</tr>
 	</table>
@@ -836,7 +837,7 @@ function graphs() {
 					}
 
 					while (list($field_name, $field_array) = each($xml_array["fields"])) {
-						if ($field_array["direction"] == "input" && sizeof($field_names)) {
+						if ($field_array["direction"] == "input") {
 							foreach($field_names as $row) {
 								if ($row["field_name"] == $field_name) {
 									$html_dq_header .= "<td style='height:1px;'><strong><font color='#" . $colors["header_text"] . "'>" . $field_array["name"] . "</font></strong></td>\n";
