@@ -31,6 +31,7 @@ $database_password = "cactipasswd";
 $database_port = "3306";
 $database_ssl = false;
 
+
 /* Default session name - Session name must contain alpha characters */
 #$cacti_session_name = "Cacti";
 
