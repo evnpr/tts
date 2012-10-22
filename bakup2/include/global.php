@@ -43,7 +43,7 @@ $database_ssl = false;
 $cacti_session_name = "Cacti";
 
 /* define default url path */
-$url_path = "/cacti/";
+$url_path = "/cacti/bakup2/";
 
 /* Include configuration */
 include(dirname(__FILE__) . "/config.php");
