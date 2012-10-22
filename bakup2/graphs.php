@@ -1361,6 +1361,7 @@ function graph() {
 	html_header_sort_checkbox($display_text, get_request_var_request("sort_column"), get_request_var_request("sort_direction"), false);
 
 	$i = 0;
+	include "theConfig.php";
 	if (sizeof($graph_list) > 0) {
 								
 

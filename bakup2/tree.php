@@ -219,6 +219,7 @@ function item_edit() {
 				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
 	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;	
 	if(!isset($_SESSION["thetreenamechilddone"])) $_SESSION["thetreenamechilddone"] = 0 ;			
+	include "theConfig.php";
 if ($_SESSION["thetreenamechild"] == "Drive $theDrive4")
 {	
 $_SESSION["thetreenamechild"] = "Drive $theDrive1";
