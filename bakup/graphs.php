@@ -482,18 +482,18 @@ function form_actions() {
 				if(!isset($_SESSION['thedrivedone'])){
 					$_SESSION['thedrivedone']=0;
 				}
-				if ($_SESSION['thedrive'] == 'D:'){
+				if ($_SESSION['thedrive'] == "$theDrive2:"){
 					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
-					$_SESSION['thedrive'] = 'C:';
-				}else if ($_SESSION['thedrive'] == 'G:'){
+					$_SESSION['thedrive'] = "$theDrive1:";
+				}else if ($_SESSION['thedrive'] == "$theDrive3:"){
 					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
-					$_SESSION['thedrive'] = 'D:';
-				}else if ($_SESSION['thedrive'] == 'J:'){
+					$_SESSION['thedrive'] = "$theDrive2:";
+				}else if ($_SESSION['thedrive'] == "$theDrive4:"){
 					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
-					$_SESSION['thedrive'] = 'G:';
+					$_SESSION['thedrive'] = "$theDrive3:";
 				}else{
 					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
-					$_SESSION['thedrive'] = 'J:';
+					$_SESSION['thedrive'] = "$theDrive4:";
 				}
 					
 			
@@ -1364,23 +1364,23 @@ function graph() {
 	if (sizeof($graph_list) > 0) {
 								
 
-			if ($_SESSION["thedrive"] == 'G:')
-				$_SESSION["thedrive"] = 'J:';
-			else if ($_SESSION["thedrive"] == 'D:')
-				$_SESSION["thedrive"] = 'G:';
-			else if ($_SESSION["thedrive"] == 'C:')
-				$_SESSION["thedrive"] = 'D:';
+			if ($_SESSION["thedrive"] == "$theDrive3:")
+				$_SESSION["thedrive"] = "$theDrive4:";
+			else if ($_SESSION["thedrive"] == "$theDrive2:")
+				$_SESSION["thedrive"] = "$theDrive3:";
+			else if ($_SESSION["thedrive"] == "$theDrive1:")
+				$_SESSION["thedrive"] = "$theDrive2:";
 			else
-				$_SESSION["thedrive"] = 'C:';
+				$_SESSION["thedrive"] = "$theDrive1:";
 				
-			if ($_SESSION["thedrive"] == 'G:')
-				$_SESSION["thedrive"] = 'J:';
-			else if ($_SESSION["thedrive"] == 'D:')
-				$_SESSION["thedrive"] = 'G:';
-			else if ($_SESSION["thedrive"] == 'C:')
-				$_SESSION["thedrive"] = 'D:';
+			if ($_SESSION["thedrive"] == "$theDrive3:")
+				$_SESSION["thedrive"] = "$theDrive4:";
+			else if ($_SESSION["thedrive"] == "$theDrive2:")
+				$_SESSION["thedrive"] = "$theDrive3:";
+			else if ($_SESSION["thedrive"] == "$theDrive1:")
+				$_SESSION["thedrive"] = "$theDrive2:";
 			else
-				$_SESSION["thedrive"] = 'C:';
+				$_SESSION["thedrive"] = "$theDrive1:";
 				
 				
 		foreach ($graph_list as $graph) {
