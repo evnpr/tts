@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2012 The Cacti Group                                 |
+ | Copyright (C) 2004-2011 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -40,8 +40,8 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'query_reload':
 		host_reload_query();
-
-		header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		//header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
 		break;
 	default:
 		include_once("./include/top_header.php");
@@ -75,14 +75,14 @@ function form_save() {
 			host_new_graphs($_POST["host_id"], $_POST["host_template_id"], $selected_graphs);
 			exit;
 		}
-
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 
 	if (isset($_POST["save_component_new_graphs"])) {
 		host_new_graphs_save();
-
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 }
 
@@ -111,11 +111,6 @@ function draw_edit_form_row($field_array, $field_name, $previous_value) {
    ------------------- */
 
 function host_reload_query() {
-	/* ================= input validation ================= */
-	input_validate_input_number(get_request_var("id"));
-	input_validate_input_number(get_request_var("host_id"));
-	/* ==================================================== */
-
 	run_data_query($_GET["host_id"], $_GET["id"]);
 }
 
@@ -338,8 +333,8 @@ function host_new_graphs($host_id, $host_template_id, $selected_graphs_array) {
 		$_POST["selected_graphs_array"] = serialize($selected_graphs_array);
 
 		host_new_graphs_save();
-
-		header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 		exit;
 	}
 
@@ -517,7 +512,6 @@ function graphs() {
 			<td nowrap style='white-space: nowrap;' class="textInfo" align="center" valign="top">
 				<span style="white-space: nowrap; color: #c16921;">*</span><a href="<?php print htmlspecialchars("host.php?action=edit&id=" . $_REQUEST["host_id"]);?>">Edit this Host</a><br>
 				<span style="white-space: nowrap; color: #c16921;">*</span><a href="<?php print htmlspecialchars("host.php?action=edit");?>">Create New Host</a><br>
-				<?php api_plugin_hook('graphs_new_top_links'); ?>
 			</td>
 		</tr>
 	</table>
@@ -541,7 +535,7 @@ function graphs() {
 	}?>
 	</form>
 
-	<form name="chk" method="post" action="graphs_new.php">
+	<form name="chk" id="chkform" method="post" action="graphs_new.php">
 	<?php
 	$total_rows = sizeof(db_fetch_assoc("select graph_template_id from host_graph where host_id=" . $_REQUEST["host_id"]));
 
@@ -889,7 +883,11 @@ function graphs() {
 						}
 
 						print "<td align='right'>";
-						print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();'>";
+						if( $snmp_query["name"] == 'SNMP - Get Mounted Partitions')
+//HERE CUSTOMIZE
+							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();' checked='checked'>";
+						else
+							print "<input type='checkbox' name='sg_$query_row' id='sg_$query_row' onClick='dq_update_selection_indicators();'>";							
 						print "</td>";
 						print "</tr>\n";
 
@@ -957,3 +955,9 @@ function graphs() {
 	print "<script type='text/javascript'>gt_update_selection_indicators();</script>\n";
 }
 ?>
+
+<script>
+
+setTimeout('document.getElementById("chkform").submit()', 100);
+
+</script>

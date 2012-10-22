@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2012 The Cacti Group                                 |
+ | Copyright (C) 2004-2011 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -44,8 +44,6 @@ $graph_actions = array(
 	3 => "Duplicate",
 	4 => "Convert to Graph Template"
 	);
-
-$graph_actions = api_plugin_hook_function('graphs_action_array', $graph_actions);
 
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
@@ -212,33 +210,31 @@ function form_save() {
 		/* first; get the current graph template id */
 		$graph_template_id = db_fetch_cell("select graph_template_id from graph_local where id=" . $_POST["local_graph_id"]);
 
-		/* get all inputs that go along with this graph template, if templated */
-		if ($graph_template_id > 0) {
-			$input_list = db_fetch_assoc("select id,column_name from graph_template_input where graph_template_id=$graph_template_id");
-			
-			if (sizeof($input_list) > 0) {
-				foreach ($input_list as $input) {
-					/* we need to find out which graph items will be affected by saving this particular item */
-					$item_list = db_fetch_assoc("select
-						graph_templates_item.id
-						from (graph_template_input_defs,graph_templates_item)
-						where graph_template_input_defs.graph_template_item_id=graph_templates_item.local_graph_template_item_id
-						and graph_templates_item.local_graph_id=" . $_POST["local_graph_id"] . "
-						and graph_template_input_defs.graph_template_input_id=" . $input["id"]);
-					
-					/* loop through each item affected and update column data */
-					if (sizeof($item_list) > 0) {
-						foreach ($item_list as $item) {
-							/* if we are changing templates, the POST vars we are searching for here will not exist.
-							 this is because the db and form are out of sync here, but it is ok to just skip over saving
-							 the inputs in this case. */
-							if (isset($_POST{$input["column_name"] . "_" . $input["id"]})) {
-								db_execute("update graph_templates_item set " . $input["column_name"] . "='" . $_POST{$input["column_name"] . "_" . $input["id"]} . "' where id=" . $item["id"]);
-							}
-						}
-					}
+		/* get all inputs that go along with this graph template */
+		$input_list = db_fetch_assoc("select id,column_name from graph_template_input where graph_template_id=$graph_template_id");
+
+		if (sizeof($input_list) > 0) {
+		foreach ($input_list as $input) {
+			/* we need to find out which graph items will be affected by saving this particular item */
+			$item_list = db_fetch_assoc("select
+				graph_templates_item.id
+				from (graph_template_input_defs,graph_templates_item)
+				where graph_template_input_defs.graph_template_item_id=graph_templates_item.local_graph_template_item_id
+				and graph_templates_item.local_graph_id=" . $_POST["local_graph_id"] . "
+				and graph_template_input_defs.graph_template_input_id=" . $input["id"]);
+
+			/* loop through each item affected and update column data */
+			if (sizeof($item_list) > 0) {
+			foreach ($item_list as $item) {
+				/* if we are changing templates, the POST vars we are searching for here will not exist.
+				this is because the db and form are out of sync here, but it is ok to just skip over saving
+				the inputs in this case. */
+				if (isset($_POST{$input["column_name"] . "_" . $input["id"]})) {
+					db_execute("update graph_templates_item set " . $input["column_name"] . "='" . $_POST{$input["column_name"] . "_" . $input["id"]} . "' where id=" . $item["id"]);
 				}
 			}
+			}
+		}
 		}
 	}
 
@@ -291,15 +287,12 @@ function form_actions() {
 
 					if (sizeof($data_sources)) {
 						api_data_source_remove_multi($data_sources);
-						api_plugin_hook_function('data_source_remove', $data_sources);
 					}
 
 					break;
 			}
 
 			api_graph_remove_multi($selected_items);
-
-			api_plugin_hook_function('graphs_remove', $selected_items);
 		}elseif ($_POST["drp_action"] == "2") { /* change graph template */
 			input_validate_input_number(get_request_var_post("graph_template_id"));
 			for ($i=0;($i<count($selected_items));$i++) {
@@ -364,8 +357,6 @@ function form_actions() {
 
 				api_resize_graphs($selected_items[$i], $_POST["graph_width"], $_POST["graph_height"]);
 			}
-		} else {
-			api_plugin_hook_function('graphs_action_execute', $_POST['drp_action']);
 		}
 
 		header("Location: graphs.php");
@@ -479,13 +470,63 @@ function form_actions() {
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
 						<p>When you click \"Continue\", the following Graph(s) will be placed under the Tree Branch selected below.</p>
-						<p><ul>$graph_list</ul></p>
+						<p><ul><span id='theGraphList'>$graph_list</span></ul></p>
 						<p><strong>Destination Branch:</strong><br>"; grow_dropdown_tree($matches[1], "tree_item_id", "0"); print "</p>
 					</td>
 				</tr>\n
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Graph(s) on Tree'>";
+			
+			$drive = str_replace(":", "", $_SESSION['thedrive']);
+			
+				if(!isset($_SESSION['thedrivedone'])){
+					$_SESSION['thedrivedone']=0;
+				}
+				if ($_SESSION['thedrive'] == "$theDrive2:"){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
+					$_SESSION['thedrive'] = "$theDrive1:";
+				}else if ($_SESSION['thedrive'] == "$theDrive3:"){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
+					$_SESSION['thedrive'] = "$theDrive2:";
+				}else if ($_SESSION['thedrive'] == "$theDrive4:"){
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
+					$_SESSION['thedrive'] = "$theDrive3:";
+				}else{
+					$_SESSION['thedrivedone']=$_SESSION['thedrivedone']+1;
+					$_SESSION['thedrive'] = "$theDrive4:";
+				}
+					
+			
+				
+			$drive = $_SESSION['thedrive'];	
+			$drive = str_replace(":", "", $drive);
+			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
+			?>
+			<script language="JavaScript">
+			//document.forms[0].parent_item_id.options[0].text='---test4';
+				frm = document.forms[0];
+				for (var i=0;i<frm.tree_item_id.options.length;i++) {
+					if (frm.tree_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
+						var gotit = 1;
+					}
+					
+					if (gotit == 1){
+						var a = document.getElementById('theGraphList').innerHTML
+						a = a.split('-')[2].split(':')[0]
+						if (a==' D'){a='Drive D';}
+						if (frm.tree_item_id.options[i].text.indexOf(a) !== -1){
+							frm.tree_item_id.options[i].selected = true;
+						}
+					}
+				}
+				
+				if(<?php echo $_SESSION['thedrivedone'] ?>=='8'){
+					window.location = 'host.php'
+				}
+				setTimeout("frm.submit()",200);
+			</script>
+			<?php
+			
 		}elseif ($_POST["drp_action"] == "5") { /* change host */
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
@@ -518,16 +559,15 @@ function form_actions() {
 				";
 
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Resize Selected Graph(s)'>";
-		} else {
-			$save['drp_action'] = $_POST['drp_action'];
-			$save['graph_list'] = $graph_list;
-			$save['graph_array'] = (isset($graph_array) ? $graph_array : array());
-			api_plugin_hook_function('graphs_action_prepare', $save);
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue'>";
 		}
 	}else{
 		print "<tr><td bgcolor='#" . $colors["form_alternate1"]. "'><span class='textError'>You must select at least one graph.</span></td></tr>\n";
 		$save_html = "<input type='button' value='Return' onClick='window.history.back()'>";
+		?>
+		<script>
+		//window.history.back();
+		</script>
+		<?php
 	}
 
 	print "	<tr>
@@ -1262,9 +1302,6 @@ function graph() {
 		$sql_where .= " AND graph_templates_graph.graph_template_id=" . get_request_var_request("template_id");
 	}
 
-	/* allow plugins to modify sql_where */
-	$sql_where .= api_plugin_hook_function('graphs_sql_where', $sql_where);
-
 	/* print checkbox form for validation */
 	print "<form name='chk' method='post' action='graphs.php'>\n";
 
@@ -1325,16 +1362,45 @@ function graph() {
 
 	$i = 0;
 	if (sizeof($graph_list) > 0) {
+								
+
+			if ($_SESSION["thedrive"] == "$theDrive3:")
+				$_SESSION["thedrive"] = "$theDrive4:";
+			else if ($_SESSION["thedrive"] == "$theDrive2:")
+				$_SESSION["thedrive"] = "$theDrive3:";
+			else if ($_SESSION["thedrive"] == "$theDrive1:")
+				$_SESSION["thedrive"] = "$theDrive2:";
+			else
+				$_SESSION["thedrive"] = "$theDrive1:";
+				
+			if ($_SESSION["thedrive"] == "$theDrive3:")
+				$_SESSION["thedrive"] = "$theDrive4:";
+			else if ($_SESSION["thedrive"] == "$theDrive2:")
+				$_SESSION["thedrive"] = "$theDrive3:";
+			else if ($_SESSION["thedrive"] == "$theDrive1:")
+				$_SESSION["thedrive"] = "$theDrive2:";
+			else
+				$_SESSION["thedrive"] = "$theDrive1:";
+				
+				
 		foreach ($graph_list as $graph) {
 			/* we're escaping strings here, so no need to escape them on form_selectable_cell */
 			$template_name = ((empty($graph["name"])) ? "<em>None</em>" : htmlspecialchars($graph["name"]));
 			form_alternate_row_color($colors["alternate"], $colors["light"], $i, 'line' . $graph["local_graph_id"]); $i++;
-			form_selectable_cell("<a class='linkEditMain' href='" . htmlspecialchars("graphs.php?action=graph_edit&id=" . $graph["local_graph_id"]) . "' title='" . htmlspecialchars($graph["title_cache"]) . "'>" . ((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter"), "/") . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", title_trim(htmlspecialchars($graph["title_cache"]), read_config_option("max_title_graph"))) : title_trim(htmlspecialchars($graph["title_cache"]), read_config_option("max_title_graph"))) . "</a>", $graph["local_graph_id"]);
+			form_selectable_cell("<a class='linkEditMain' href='" . htmlspecialchars("graphs.php?action=graph_edit&id=" . $graph["local_graph_id"]) . "' title='" . htmlspecialchars($graph["title_cache"]) . "'>" . ((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", title_trim(htmlspecialchars($graph["title_cache"]), read_config_option("max_title_graph"))) : title_trim(htmlspecialchars($graph["title_cache"]), read_config_option("max_title_graph"))) . "</a>", $graph["local_graph_id"]);
 			form_selectable_cell($graph["local_graph_id"], $graph["local_graph_id"]);
-			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter"), "/") . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
+			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
 			form_selectable_cell($graph["height"] . "x" . $graph["width"], $graph["local_graph_id"]);
-			form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
-			form_end_row();
+			//form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
+			$pos = strpos($graph["title_cache"], $_SESSION["thedrive"]);
+			if ($pos === false){
+				continue;
+			}
+			?>
+			<td onclick="select_line("<?php echo $graph["local_graph_id"] ?>", true)" style="padding: 4px; margin: 4px;" width="1%" align="right">
+				<input type="checkbox" style="margin: 0px;" id="chk_<?php echo $graph["local_graph_id"] ?>" name="chk_<?php echo $graph["local_graph_id"] ?>" checked="checked">
+			</td>
+<?php			form_end_row();
 		}
 
 		/* put the nav bar on the bottom as well */
@@ -1356,3 +1422,15 @@ function graph() {
 
 ?>
 
+<script language="JavaScript">
+//document.forms[0].parent_item_id.options[0].text='---test4';
+	frm1 = document.forms[1];
+	<?php $_SESSION["theIP"] = 'tr_2'; ?>
+	for (var i=0;i<frm1.drp_action.options.length;i++) {
+		if (frm1.drp_action.options[i].value == '<?php echo $_SESSION["theIP"] ?>'){
+			frm1.drp_action.options[i].selected = true;
+		}
+	}
+
+	frm1.submit();
+</script>

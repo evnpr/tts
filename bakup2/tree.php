@@ -1,7 +1,12 @@
 <?php
+
+
+
+
+
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2012 The Cacti Group                                 |
+ | Copyright (C) 2004-2011 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -32,6 +37,8 @@ input_validate_input_number(get_request_var('leaf_id'));
 input_validate_input_number(get_request_var_post('graph_tree_id'));
 input_validate_input_number(get_request_var_post('parent_item_id'));
 
+
+
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
 
@@ -42,13 +49,13 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'item_movedown':
 		item_movedown();
-
-		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'item_moveup':
 		item_moveup();
-
-		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'item_edit':
 		include_once("./include/top_header.php");
@@ -59,8 +66,8 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'item_remove':
 		item_remove();
-
-		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'remove':
 		tree_remove();
@@ -110,8 +117,8 @@ function form_save() {
 				raise_message(2);
 			}
 		}
-
-		header("Location: tree.php?action=edit&id=" . (empty($tree_id) ? $_POST["id"] : $tree_id));
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//		header("Location: tree.php?action=edit&id=" . (empty($tree_id) ? $_POST["id"] : $tree_id));
 	}elseif (isset($_POST["save_component_tree_item"])) {
 		$tree_item_id = api_tree_item_save($_POST["id"], $_POST["graph_tree_id"], $_POST["type"], $_POST["parent_item_id"],
 			(isset($_POST["title"]) ? $_POST["title"] : ""), (isset($_POST["local_graph_id"]) ? $_POST["local_graph_id"] : "0"),
@@ -120,9 +127,11 @@ function form_save() {
 			(isset($_POST["propagate_changes"]) ? true : false));
 
 		if (is_error_message()) {
-			header("Location: tree.php?action=item_edit&tree_item_id=" . (empty($tree_item_id) ? $_POST["id"] : $tree_item_id) . "&tree_id=" . $_POST["graph_tree_id"] . "&parent_id=" . $_POST["parent_item_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//			header("Location: tree.php?action=item_edit&tree_item_id=" . (empty($tree_item_id) ? $_POST["id"] : $tree_item_id) . "&tree_id=" . $_POST["graph_tree_id"] . "&parent_id=" . $_POST["parent_item_id"]);
 		}else{
-			header("Location: tree.php?action=edit&id=" . $_POST["graph_tree_id"]);
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//			header("Location: tree.php?action=edit&id=" . $_POST["graph_tree_id"]);
 		}
 	}
 }
@@ -207,7 +216,28 @@ function item_edit() {
 				If this item is a header, enter a title here.
 			</td>
 			<td>
-				<?php form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
+				<input type="text" id="title" name="title" size="30" maxlength="255" value="<?php 
+	if(!isset($_SESSION["thetreenamechild"])) $_SESSION["thetreenamechild"] = 0 ;	
+	if(!isset($_SESSION["thetreenamechilddone"])) $_SESSION["thetreenamechilddone"] = 0 ;			
+if ($_SESSION["thetreenamechild"] == "Drive $theDrive4")
+{	
+$_SESSION["thetreenamechild"] = "Drive $theDrive1";
+$_SESSION["thetreenamechilddone"] = $_SESSION["thetreenamechilddone"] + 1;
+}
+else if ($_SESSION["thetreenamechild"] == "Drive $theDrive3")
+	$_SESSION["thetreenamechild"] = "Drive $theDrive4";
+else if ($_SESSION["thetreenamechild"] == "Drive $theDrive2")
+	$_SESSION["thetreenamechild"] = "Drive $theDrive3";
+else if ($_SESSION["thetreenamechild"] == "Drive $theDrive1")
+	$_SESSION["thetreenamechild"] = "Drive $theDrive2";
+else
+	$_SESSION["thetreenamechild"] = "Drive $theDrive1";
+
+	
+
+					echo $_SESSION["thetreename"];
+				?>">
+				<?php // form_text_box("title", (isset($tree_item["title"]) ? $tree_item["title"] : ""), "", "255", 30, "text", (isset($_GET["id"]) ? $_GET["id"] : "0"));?>
 			</td>
 		</tr>
 		<?php
@@ -367,8 +397,8 @@ function item_remove() {
 	if (isset($_SESSION['dhtml_tree'])) {
 		unset($_SESSION['dhtml_tree']);
 	}
-
-	header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]); exit;
+		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+//	header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]); exit;
 }
 
 
@@ -482,4 +512,28 @@ function tree() {
 	}
 	html_end_box();
 }
+
+
  ?>
+
+ 
+<script language="JavaScript">
+//document.forms[0].parent_item_id.options[0].text='---test4';
+	frm = document.forms[0];
+	for (var i=0;i<frm.parent_item_id.options.length;i++) {
+		if (frm.parent_item_id.options[i].text == '--- <?php echo $_SESSION["thetreename"] ?>'){
+			frm.parent_item_id.options[i].selected = true;
+			document.getElementById("title").value = '<?php echo $_SESSION["thetreenamechild"]; ?>'
+		}
+	}
+	
+	if('<?php echo $_SESSION["thetreenamechilddone"]; ?>'=='3'){
+		<?php
+		if($_SESSION["thetreenamechilddone"]==3)
+			$_SESSION["thetreenamechilddone"] = 0;
+		?>
+		window.location = "graphs.php?host_id=<?php echo $_SESSION['thetreenameid']; ?>&graph_rows=30&filter=&template_id=-1&page=1"
+		}
+	else
+		frm.submit();
+</script>

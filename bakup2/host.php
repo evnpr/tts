@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2012 The Cacti Group                                 |
+ | Copyright (C) 2004-2011 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -33,8 +33,11 @@ include_once("./lib/ping.php");
 include_once("./lib/data_query.php");
 include_once("./lib/api_device.php");
 
-define("MAX_DISPLAY_PAGES", 21);
 
+$_SESSION['thedrivedone'] = 0;
+
+
+define("MAX_DISPLAY_PAGES", 21);
 $device_actions = array(
 	1 => "Delete",
 	2 => "Enable",
@@ -43,8 +46,6 @@ $device_actions = array(
 	5 => "Clear Statistics",
 	6 => "Change Availability Options"
 	);
-
-$device_actions = api_plugin_hook_function('device_action_array', $device_actions);
 
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
@@ -139,7 +140,6 @@ function form_save() {
 		/* ==================================================== */
 
 		db_execute("replace into host_graph (host_id,graph_template_id) values (" . $_POST["id"] . "," . $_POST["graph_template_id"] . ")");
-		api_plugin_hook_function('add_graph_template_to_host', array("host_id" => $_POST["id"], "graph_template_id" => $_POST["graph_template_id"]));
 
 		header("Location: host.php?action=edit&id=" . $_POST["id"]);
 		exit;
@@ -159,9 +159,11 @@ function form_save() {
 				$_POST["ping_retries"], $_POST["notes"],
 				$_POST["snmp_auth_protocol"], $_POST["snmp_priv_passphrase"],
 				$_POST["snmp_priv_protocol"], $_POST["snmp_context"], $_POST["max_oids"], $_POST["device_threads"]);
+			$_SESSION['thetreename'] = $_POST["description"];
+			$_SESSION['thetreenameid'] = (empty($host_id) ? $_POST["id"] : $host_id);
 		}
 
-		header("Location: host.php?action=edit&id=" . (empty($host_id) ? $_POST["id"] : $host_id));
+		header("Location: graphs_new.php?host_id=" . (empty($host_id) ? $_POST["id"] : $host_id));
 	}
 }
 
@@ -292,22 +294,16 @@ function form_actions() {
 				case '1': /* leave graphs and data_sources in place, but disable the data sources */
 					api_data_source_disable_multi($data_sources_to_act_on);
 
-					api_plugin_hook_function('data_source_remove', $data_sources_to_act_on);
-
 					break;
 				case '2': /* delete graphs/data sources tied to this device */
 					api_data_source_remove_multi($data_sources_to_act_on);
 
 					api_graph_remove_multi($graphs_to_act_on);
 
-					api_plugin_hook_function('graphs_remove', $graphs_to_act_on);
-
 					break;
 			}
 
 			api_device_remove_multi($devices_to_act_on);
-
-			api_plugin_hook_function('device_remove', $devices_to_act_on);
 		}elseif (preg_match("/^tr_([0-9]+)$/", $_POST["drp_action"], $matches)) { /* place on tree */
 			for ($i=0;($i<count($selected_items));$i++) {
 				/* ================= input validation ================= */
@@ -318,8 +314,6 @@ function form_actions() {
 
 				api_tree_item_save(0, $_POST["tree_id"], TREE_ITEM_TYPE_HOST, $_POST["tree_item_id"], "", 0, read_graph_config_option("default_rra_id"), $selected_items[$i], 1, 1, false);
 			}
-		} else {
-			api_plugin_hook_function('device_action_execute', $_POST['drp_action']);
 		}
 
 		header("Location: host.php");
@@ -465,12 +459,6 @@ function form_actions() {
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Place Device(s) on Tree'>";
-		} else {
-			$save['drp_action'] = $_POST['drp_action'];
-			$save['host_list'] = $host_list;
-			$save['host_array'] = (isset($host_array)? $host_array : array());
-			api_plugin_hook_function('device_action_prepare', $save);
-			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue'>";
 		}
 	}else{
 		print "<tr><td bgcolor='#" . $colors["form_alternate1"]. "'><span class='textError'>You must select at least one device.</span></td></tr>\n";
@@ -553,8 +541,6 @@ function host_edit() {
 	input_validate_input_number(get_request_var("id"));
 	/* ==================================================== */
 
-	api_plugin_hook('host_edit_top');
-
 	if (!empty($_GET["id"])) {
 		$host = db_fetch_row("select * from host where id=" . $_GET["id"]);
 		$header_label = "[edit: " . htmlspecialchars($host["description"]) . "]";
@@ -573,8 +559,6 @@ function host_edit() {
 			<tr>
 				<td class="textHeader">
 				<?php if (($host["availability_method"] == AVAIL_SNMP) ||
-					($host["availability_method"] == AVAIL_SNMP_GET_NEXT) ||
-					($host["availability_method"] == AVAIL_SNMP_GET_SYSDESC) ||
 					($host["availability_method"] == AVAIL_SNMP_AND_PING) ||
 					($host["availability_method"] == AVAIL_SNMP_OR_PING)) { ?>
 					SNMP Information<br>
@@ -668,7 +652,6 @@ function host_edit() {
 					<span style="color: #c16921;">*</span><a href="<?php print htmlspecialchars("graphs_new.php?host_id=" . $host["id"]);?>">Create Graphs for this Host</a><br>
 					<span style="color: #c16921;">*</span><a href="<?php print htmlspecialchars("data_sources.php?host_id=" . $host["id"] . "&ds_rows=30&filter=&template_id=-1&method_id=-1&page=1");?>">Data Source List</a><br>
 					<span style="color: #c16921;">*</span><a href="<?php print htmlspecialchars("graphs.php?host_id=" . $host["id"] . "&graph_rows=30&filter=&template_id=-1&page=1");?>">Graph List</a>
-					<?php api_plugin_hook('device_edit_top_links'); ?>
 				</td>
 			</tr>
 		</table>
@@ -739,8 +722,6 @@ function host_edit() {
 
 			break;
 		case "2": // snmp
-		case "5": // snmp sysDesc
-		case "6": // snmp getNext
 			document.getElementById('row_ping_method').style.display  = "none";
 			document.getElementById('row_ping_port').style.display    = "none";
 			document.getElementById('row_ping_timeout').style.display = "";
@@ -792,9 +773,7 @@ function host_edit() {
 		switch(type) {
 		case "NoSNMP":
 			/* remove snmp options */
-			if (am.length == 7) {
-				am.remove(1);
-				am.remove(1);
+			if (am.length == 5) {
 				am.remove(1);
 				am.remove(1);
 				am.remove(1);
@@ -817,32 +796,22 @@ function host_edit() {
 				var c=document.createElement('option');
 				var d=document.createElement('option');
 				var e=document.createElement('option');
-				var f=document.createElement('option');
-				var g=document.createElement('option');
 
 				a.value="0";
 				a.text="None";
 				addSelectItem(a,am);
 
 				b.value="1";
-				b.text="Ping and SNMP Uptime";
+				b.text="Ping and SNMP";
 				addSelectItem(b,am);
 
 				e.value="4";
-				e.text="Ping or SNMP Uptime";
+				e.text="Ping or SNMP";
 				addSelectItem(e,am);
 
 				c.value="2";
-				c.text="SNMP Uptime";
+				c.text="SNMP";
 				addSelectItem(c,am);
-
-				f.value="5";
-				f.text="SNMP Desc";
-				addSelectItem(f,am);
-
-				g.value="6";
-				g.text="SNMP getNext";
-				addSelectItem(g,am);
 
 				d.value="3";
 				d.text="Ping";
@@ -885,9 +854,9 @@ function host_edit() {
 				document.getElementById('ping_method').value=0;
 
 				break;
-			case "1": // ping and snmp sysUptime
+			case "1": // ping and snmp
 			case "3": // ping
-			case "4": // ping or snmp sysUptime
+			case "4": // ping or snmp
 				if ((document.getElementById('row_ping_method').style.display == "none") ||
 					(document.getElementById('row_ping_method').style.display == undefined)) {
 					document.getElementById('ping_method').value=ping_method;
@@ -895,9 +864,7 @@ function host_edit() {
 				}
 
 				break;
-			case "2": // snmp sysUptime
-			case "5": // snmp sysDesc
-			case "6": // snmp getNext
+			case "2": // snmp
 				document.getElementById('row_ping_method').style.display="none";
 				document.getElementById('ping_method').value="0";
 
@@ -1149,8 +1116,6 @@ function host_edit() {
 	}
 
 	form_save_button("host.php", "return");
-
-	api_plugin_hook('host_edit_bottom');
 }
 
 function host() {
@@ -1391,7 +1356,7 @@ function host() {
 		"nosort1" => array("Graphs", "ASC"),
 		"nosort2" => array("Data Sources", "ASC"),
 		"status" => array("Status", "ASC"),
-		"status_rec_date" => array("In State", "ASC"),
+		"status_event_count" => array("Event Count", "ASC"),
 		"hostname" => array("Hostname", "ASC"),
 		"cur_time" => array("Current (ms)", "DESC"),
 		"avg_time" => array("Average (ms)", "DESC"),
@@ -1404,13 +1369,13 @@ function host() {
 		foreach ($hosts as $host) {
 			form_alternate_row_color($colors["alternate"], $colors["light"], $i, 'line' . $host["id"]); $i++;
 			form_selectable_cell("<a class='linkEditMain' href='" . htmlspecialchars("host.php?action=edit&id=" . $host["id"]) . "'>" .
-				(strlen(get_request_var_request("filter")) ? preg_replace("/(" . preg_quote(get_request_var_request("filter"), "/") . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", htmlspecialchars($host["description"])) : htmlspecialchars($host["description"])) . "</a>", $host["id"], 250);
+				(strlen(get_request_var_request("filter")) ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", htmlspecialchars($host["description"])) : htmlspecialchars($host["description"])) . "</a>", $host["id"], 250);
 			form_selectable_cell(round(($host["id"]), 2), $host["id"]);
 			form_selectable_cell((isset($host_graphs[$host["id"]]) ? $host_graphs[$host["id"]] : 0), $host["id"]);
 			form_selectable_cell((isset($host_data_sources[$host["id"]]) ? $host_data_sources[$host["id"]] : 0), $host["id"]);
 			form_selectable_cell(get_colored_device_status(($host["disabled"] == "on" ? true : false), $host["status"]), $host["id"]);
-			form_selectable_cell(get_timeinstate($host), $host["id"]);
-			form_selectable_cell((strlen(get_request_var_request("filter")) ? preg_replace("/(" . preg_quote(get_request_var_request("filter"), "/") . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", htmlspecialchars($host["hostname"])) : htmlspecialchars($host["hostname"])), $host["id"]);
+			form_selectable_cell(round(($host["status_event_count"]), 2), $host["id"]);
+			form_selectable_cell((strlen(get_request_var_request("filter")) ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", htmlspecialchars($host["hostname"])) : htmlspecialchars($host["hostname"])), $host["id"]);
 			form_selectable_cell(round(($host["cur_time"]), 2), $host["id"]);
 			form_selectable_cell(round(($host["avg_time"]), 2), $host["id"]);
 			form_selectable_cell(round($host["availability"], 2), $host["id"]);
@@ -1433,36 +1398,6 @@ function host() {
 
 	print "</form>\n";
 }
-
-function get_timeinstate($host) {
-        $interval = read_config_option("poller_interval");
-        if ($host['status_event_count'] > 0) {
-                $time = $host['status_event_count'] * $interval;
-        }elseif (strtotime($host['status_rec_date']) > 943916400) {
-                $time = time() - strtotime($host['status_rec_date']);
-        }else{
-                return "-";
-        }
-
-        if ($time > 86400) {
-                $days  = floor($time/86400);
-                $time %= 86400;
-        }else{
-                $days  = 0;
-        }
-
-        if ($time > 3600) {
-                $hours = floor($time/3600);
-                $time  %= 3600;
-        }else{
-                $hours = 0;
-        }
-
-        $minutes = floor($time/60);
-
-        return $days . "d " . $hours . "h " . $minutes . "m";
-}
-
 
 ?>
 
