@@ -476,7 +476,7 @@ function form_actions() {
 				</tr>\n
 				<input type='hidden' name='tree_id' value='" . $matches[1] . "'>\n
 				";
-			
+			include "theConfig.php";
 			$drive = str_replace(":", "", $_SESSION['thedrive']);
 			
 				if(!isset($_SESSION['thedrivedone'])){
