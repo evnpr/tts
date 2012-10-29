@@ -161,6 +161,7 @@ function form_save() {
 				$_POST["snmp_priv_protocol"], $_POST["snmp_context"], $_POST["max_oids"], $_POST["device_threads"]);
 			$_SESSION['thetreename'] = $_POST["description"];
 			$_SESSION['thetreenameid'] = (empty($host_id) ? $_POST["id"] : $host_id);
+			$_SESSION['typeOfIP'] = $_POST["typeOfIP"];
 		}
 
 		header("Location: graphs_new.php?host_id=" . (empty($host_id) ? $_POST["id"] : $host_id));
@@ -380,6 +381,16 @@ function form_actions() {
 
 							$form_array[$field_name]["value"] = "";
 							$form_array[$field_name]["description"] = "";
+							echo '
+								<select name="typeOfIP">
+										<option value="tr_19">Place on a Tree (--- Account Servers ---)</option>
+										<option value="tr_20">Place on a Tree (--- Admin Servers ---)</option>
+										<option value="tr_16">Place on a Tree (--- Agent Servers ---)</option>
+										<option value="tr_21">Place on a Tree (--- Core Servers ---)</option>
+										<option value="tr_35">Place on a Tree (--- LAN ---)</option>
+										<option value="tr_2">Place on a Tree (--- Player Servers ---)</option>
+								</select>
+							';
 							$form_array[$field_name]["form_id"] = 0;
 							$form_array[$field_name]["sub_checkbox"] = array(
 								"name" => "t_" . $field_name,
