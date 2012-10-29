@@ -365,7 +365,6 @@ function form_actions() {
 
 	/* setup some variables */
 	$graph_list = ""; $i = 0;
-    					$_SESSION['aggregate'] = 0;
 	/* loop through each of the graphs selected on the previous page and get more info about them */
 	while (list($var,$val) = each($_POST)) {
 		if (preg_match("/^chk_([0-9]+)$/", $var, $matches)) {
@@ -502,7 +501,7 @@ function form_actions() {
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 
-				if( $_SESSION['thedrivedone'] == 8){
+				if( $_SESSION['thedrivedone'] == 10){
 					$_SESSION['aggregate'] = '1';
 				}
 				
