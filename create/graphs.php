@@ -501,12 +501,13 @@ function form_actions() {
 			$drive = $_SESSION['thedrive'];	
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
-				<?php			
+			
 				if( $_SESSION['thedrivedone'] == 8){
 					$_SESSION['aggregate'] = '1';
 				}
 				
-				?>
+
+				
 			?>
 			<script language="JavaScript">
 			//document.forms[0].parent_item_id.options[0].text='---test4';
