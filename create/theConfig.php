@@ -18,4 +18,4 @@
 	
 	*/
 	
-	$_SESSION['typeOfIP'] = 'tr_3';
+	$_SESSION['typeOfIP'] = 'tr_2';
