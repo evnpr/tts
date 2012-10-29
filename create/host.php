@@ -824,7 +824,7 @@ function host_edit() {
 				addSelectItem(a,am);
 
 				b.value="1";
-				b.text="Ping and SNMPku";
+				b.text="Ping and SNMP";
 				addSelectItem(b,am);
 
 				e.value="4";
