@@ -528,7 +528,7 @@ function form_actions() {
 				}
 				<?php
 				if( $_SESSION['thedrivedone'] == 9){
-					$_SESSION['thedrivedone'] = 0;
+					$_SESSION['aggregate'] = 0;
 				?>
 					window.location = 'host.php'
 				<?php
