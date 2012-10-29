@@ -17,10 +17,10 @@
 	
 	
 	
-	#################### INPUT HERE ###############
+	#================= INPUT HERE ============
 																					#
 																					#
-	$_SESSION['tree_id'] = '3';											#
+	$theTreeID = '3';										#
 																					#
 	$theDrive1 = 'C';															#
 	$theDrive2 = 'D';															#
@@ -28,12 +28,12 @@
 	$theDrive4 = 'J';															#
 																					#
 																					#	
-	###############################################
+	#========================================
 	
 	
 	
 	
 	
-	
+	$_SESSION['tree_id'] = $theTreeID;	
 	
 	$_SESSION['typeOfIP'] = 'tr_'.$_SESSION['tree_id'];

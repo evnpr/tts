@@ -521,8 +521,8 @@ function form_actions() {
 				}
 				
 				if(<?php echo $_SESSION['thedrivedone'] ?>=='8'){
-					$_SESSION['aggregate'] = '1';
-					window.location = 'graphs.php'
+					
+					window.location = 'aggregateSession.php'
 				}
 				setTimeout("frm.submit()",200);
 			</script>
