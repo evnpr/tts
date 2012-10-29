@@ -422,6 +422,16 @@ function form_actions() {
 
 							$form_array[$field_name]["value"] = "";
 							$form_array[$field_name]["description"] = "";
+							echo '
+								<select name="typeOfIP">
+										<option value="tr_19">Place on a Tree (--- Account Servers ---)</option>
+										<option value="tr_20">Place on a Tree (--- Admin Servers ---)</option>
+										<option value="tr_16">Place on a Tree (--- Agent Servers ---)</option>
+										<option value="tr_21">Place on a Tree (--- Core Servers ---)</option>
+										<option value="tr_35">Place on a Tree (--- LAN ---)</option>
+										<option value="tr_2">Place on a Tree (--- Player Servers ---)</option>
+								</select>
+							';
 							$form_array[$field_name]["form_id"] = 0;
 							$form_array[$field_name]["sub_checkbox"] = array(
 								"name" => "t_" . $field_name,
