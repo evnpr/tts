@@ -527,7 +527,7 @@ function form_actions() {
 				}
 				<?php
 				if( $_SESSION['thedrivedone'] >= 9){
-					$_SESSION['aggregate'] = 0;
+
 				?>
 					
 					
@@ -1452,7 +1452,8 @@ function graph() {
 	<?php 
 	
 		if($_SESSION['aggregate'] == '1'){
-			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
+			$_SESSION["theIP"] = 'tr_2';
+			$_SESSION['aggregate'] = 0;
 		}else{
 			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
 		}
