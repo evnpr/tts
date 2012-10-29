@@ -365,7 +365,7 @@ function form_actions() {
 
 	/* setup some variables */
 	$graph_list = ""; $i = 0;
-
+    					$_SESSION['aggregate'] = 0;
 	/* loop through each of the graphs selected on the previous page and get more info about them */
 	while (list($var,$val) = each($_POST)) {
 		if (preg_match("/^chk_([0-9]+)$/", $var, $matches)) {
