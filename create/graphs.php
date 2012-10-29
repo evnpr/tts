@@ -522,7 +522,7 @@ function form_actions() {
 					if (gotit == 1){
 						var a = document.getElementById('theGraphList').innerHTML
 						b = a.split(':')[0];
-						a = b[b.length - 1]
+						a = b[b.length - 1];
 						if (a=='C'){a='Drive C';}
 						if (a=='D'){a='Drive D';}
 						if (frm.tree_item_id.options[i].text.indexOf(a) !== -1){
@@ -1412,7 +1412,7 @@ function graph() {
 			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
 			form_selectable_cell($graph["height"] . "x" . $graph["width"], $graph["local_graph_id"]);
 			//form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
-			if($_SESSION['aggregate'] == '1'){
+			if($_SESSION['aggregate'] == '2'){
 				$pos = strpos($graph["title_cache"], 'CPU');
 				if ($pos === false){
 					continue;
