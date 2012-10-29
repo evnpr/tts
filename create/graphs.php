@@ -501,9 +501,12 @@ function form_actions() {
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 
-				if( $_SESSION['thedrivedone'] == 8){
+				if( $_SESSION['thedrivedone'] >= 8){
 					$_SESSION['aggregate'] = '1';
+				}else{
+					$_SESSION['aggregate'] = '0';
 				}
+				
 				
 
 				
@@ -1452,8 +1455,7 @@ function graph() {
 	<?php 
 	
 		if($_SESSION['aggregate'] == '1'){
-			$_SESSION["theIP"] = 'tr_2';
-			$_SESSION['aggregate'] = 0;
+			$_SESSION["theIP"] = 'plugin_aggregate';
 		}else{
 			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
 		}
