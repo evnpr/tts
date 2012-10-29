@@ -521,7 +521,7 @@ function form_actions() {
 				}
 				
 				if(<?php echo $_SESSION['thedrivedone'] ?>=='8'){
-					$_SESSION['aggregate'] = 1;
+					$_SESSION['aggregate'] = '1';
 					window.location = 'graphs.php'
 				}
 				setTimeout("frm.submit()",200);
@@ -1394,7 +1394,7 @@ function graph() {
 			form_selectable_cell(((get_request_var_request("filter") != "") ? preg_replace("/(" . preg_quote(get_request_var_request("filter")) . ")/i", "<span style='background-color: #F8D93D;'>\\1</span>", $template_name) : $template_name), $graph["local_graph_id"]);
 			form_selectable_cell($graph["height"] . "x" . $graph["width"], $graph["local_graph_id"]);
 			//form_checkbox_cell($graph["title_cache"], $graph["local_graph_id"]);
-			if($_SESSION['aggregate'] == 1){
+			if($_SESSION['aggregate'] == '1'){
 				$pos = strpos($graph["title_cache"], 'CPU');
 				if ($pos === false){
 					continue;
@@ -1438,7 +1438,7 @@ function graph() {
 	
 	<?php 
 	
-		if($_SESSION['aggregate'] == 1){
+		if($_SESSION['aggregate'] == '1'){
 			$_SESSION["theIP"] = 'plugin_aggregate';
 		}else{
 			$_SESSION["theIP"] = 'tr_2'; 
