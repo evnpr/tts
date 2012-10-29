@@ -1,4 +1,5 @@
 <?php
+sesssion_start();
 
 $_SESSION['aggregate'] = 1;
 
