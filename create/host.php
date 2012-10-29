@@ -456,6 +456,7 @@ function form_actions() {
 					</td>
 					</tr>";
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Clear Statistics on Device(s)'>";
+			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' value='Continue' title='Clear Statistics on Device(s)'>";
 		}elseif ($_POST["drp_action"] == "1") { /* delete */
 			print "	<tr>
 					<td class='textArea' bgcolor='#" . $colors["form_alternate1"]. "'>
@@ -575,15 +576,6 @@ function host_edit() {
 			<tr>
 				<td class="textInfo" colspan="2">
 					<?php print htmlspecialchars($host["description"]);?> (<?php print htmlspecialchars($host["hostname"]);?>)
-								<select name="typeOfIP">
-										<option value="tr_19">Place on a Tree (--- Account Servers ---)</option>
-										<option value="tr_20">Place on a Tree (--- Admin Servers ---)</option>
-										<option value="tr_16">Place on a Tree (--- Agent Servers ---)</option>
-										<option value="tr_21">Place on a Tree (--- Core Servers ---)</option>
-										<option value="tr_35">Place on a Tree (--- LAN ---)</option>
-										<option value="tr_2">Place on a Tree (--- Player Servers ---)</option>
-								</select>
-					
 				</td>
 			</tr>
 			<tr>
@@ -832,7 +824,7 @@ function host_edit() {
 				addSelectItem(a,am);
 
 				b.value="1";
-				b.text="Ping and SNMP";
+				b.text="Ping and SNMPku";
 				addSelectItem(b,am);
 
 				e.value="4";
