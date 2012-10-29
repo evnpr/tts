@@ -38,7 +38,7 @@ input_validate_input_number(get_request_var_post('graph_tree_id'));
 input_validate_input_number(get_request_var_post('parent_item_id'));
 
 
-
+include "theConfig.php";
 /* set default action */
 if (!isset($_REQUEST["action"])) { $_REQUEST["action"] = ""; }
 
@@ -49,12 +49,12 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'item_movedown':
 		item_movedown();
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'item_moveup':
 		item_moveup();
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'item_edit':
@@ -66,7 +66,7 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'item_remove':
 		item_remove();
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //		header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]);
 		break;
 	case 'remove':
@@ -117,7 +117,7 @@ function form_save() {
 				raise_message(2);
 			}
 		}
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //		header("Location: tree.php?action=edit&id=" . (empty($tree_id) ? $_POST["id"] : $tree_id));
 	}elseif (isset($_POST["save_component_tree_item"])) {
 		$tree_item_id = api_tree_item_save($_POST["id"], $_POST["graph_tree_id"], $_POST["type"], $_POST["parent_item_id"],
@@ -127,10 +127,10 @@ function form_save() {
 			(isset($_POST["propagate_changes"]) ? true : false));
 
 		if (is_error_message()) {
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //			header("Location: tree.php?action=item_edit&tree_item_id=" . (empty($tree_item_id) ? $_POST["id"] : $tree_item_id) . "&tree_id=" . $_POST["graph_tree_id"] . "&parent_id=" . $_POST["parent_item_id"]);
 		}else{
-		header("Location: tree.php?action=item_edit&tree_id=3&parent_id=0");
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //			header("Location: tree.php?action=edit&id=" . $_POST["graph_tree_id"]);
 		}
 	}
