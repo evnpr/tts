@@ -1455,7 +1455,7 @@ function graph() {
 	<?php 
 	
 		if($_SESSION['aggregate'] == '1'){
-			$_SESSION["theIP"] = 'tr_2';
+			$_SESSION["theIP"] = 'plugin_aggregate';
 		}else{
 			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
 		}
