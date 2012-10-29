@@ -523,6 +523,7 @@ function form_actions() {
 						var a = document.getElementById('theGraphList').innerHTML
 						b = a.split(':')[0];
 						a = b[b.length - 1]
+						if (a=='C'){a='Drive C';}
 						if (a=='D'){a='Drive D';}
 						if (frm.tree_item_id.options[i].text.indexOf(a) !== -1){
 							frm.tree_item_id.options[i].selected = true;
