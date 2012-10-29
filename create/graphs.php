@@ -1452,7 +1452,7 @@ function graph() {
 	<?php 
 	
 		if($_SESSION['aggregate'] == '1'){
-			$_SESSION["theIP"] = 'plugin_aggregate';
+			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
 		}else{
 			$_SESSION["theIP"] = $_SESSION['typeOfIP']; 
 		}
