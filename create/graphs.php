@@ -502,7 +502,7 @@ function form_actions() {
 			$drive = str_replace(":", "", $drive);
 			$save_html = "<input type='button' value='Cancel' onClick='window.history.back()'>&nbsp;<input type='submit' id='theclick' value='Continue' title='Place Graph(s) on Tree'>";
 			
-				if( $_SESSION['thedrivedone'] == 8){
+				if( $_SESSION['thedrivedone'] == 7){
 					$_SESSION['aggregate'] = '1';
 				}
 				
