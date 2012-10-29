@@ -17,5 +17,5 @@
 	<option value="tr_18">Place on a Tree (--- Player Servers ---)</option>
 	
 	*/
-	
-	$_SESSION['typeOfIP'] = 'tr_3';
+	$_SESSION['tree_id'] = '3';
+	$_SESSION['typeOfIP'] = 'tr_'.$_SESSION['tree_id'];
