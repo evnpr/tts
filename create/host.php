@@ -159,8 +159,9 @@ function form_save() {
 				$_POST["ping_retries"], $_POST["notes"],
 				$_POST["snmp_auth_protocol"], $_POST["snmp_priv_passphrase"],
 				$_POST["snmp_priv_protocol"], $_POST["snmp_context"], $_POST["max_oids"], $_POST["device_threads"]);
-			$_SESSION['thetreename'] = explode("-",$_POST["description"])[0];
-			$_SESSION['thetreenameServer'] = explode("-",$_POST["description"])[1];			
+				$explodedescription = explode("-",$_POST["description"]);
+			$_SESSION['thetreename'] = $explodedescription[0];
+			$_SESSION['thetreenameServer'] = $explodedescription[1];			
 			$_SESSION['thetreenameid'] = (empty($host_id) ? $_POST["id"] : $host_id);
 			$_SESSION['typeOfIP'] = $_POST["typeOfIP"];
 		}
