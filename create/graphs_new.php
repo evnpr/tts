@@ -40,7 +40,8 @@ switch ($_REQUEST["action"]) {
 		break;
 	case 'query_reload':
 		host_reload_query();
-		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		include "theConfig.php";
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 		//header("Location: graphs_new.php?host_id=" . $_GET["host_id"]);
 		break;
 	default:
@@ -75,13 +76,15 @@ function form_save() {
 			host_new_graphs($_POST["host_id"], $_POST["host_template_id"], $selected_graphs);
 			exit;
 		}
-		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		include "theConfig.php";
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 
 	if (isset($_POST["save_component_new_graphs"])) {
 		host_new_graphs_save();
-		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		include "theConfig.php";
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 	}
 }
@@ -333,7 +336,8 @@ function host_new_graphs($host_id, $host_template_id, $selected_graphs_array) {
 		$_POST["selected_graphs_array"] = serialize($selected_graphs_array);
 
 		host_new_graphs_save();
-		header("Location: tree.php?action=item_edit&tree_id=2&parent_id=0");
+		include "theConfig.php";
+		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 		//header("Location: graphs_new.php?host_id=" . $_POST["host_id"]);
 		exit;
 	}
