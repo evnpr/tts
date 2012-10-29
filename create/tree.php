@@ -398,7 +398,7 @@ function item_remove() {
 	if (isset($_SESSION['dhtml_tree'])) {
 		unset($_SESSION['dhtml_tree']);
 	}
-
+		include("theConfig.php");
 		header("Location: tree.php?action=item_edit&tree_id=".$_SESSION['tree_id']."&parent_id=0");
 //	header("Location: tree.php?action=edit&id=" . $_GET["tree_id"]); exit;
 }
