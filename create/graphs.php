@@ -521,7 +521,7 @@ function form_actions() {
 					
 					if (gotit == 1){
 						var a = document.getElementById('theGraphList').innerHTML
-						a = a.split('-')[2].split(':')[0]
+						a = a.split(':')[0][a.length - 1];
 						if (a==' D'){a='Drive D';}
 						if (frm.tree_item_id.options[i].text.indexOf(a) !== -1){
 							frm.tree_item_id.options[i].selected = true;
